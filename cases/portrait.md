@@ -3644,3 +3644,448 @@ The image preserves visible screen pixel structure, slight glare reflections, ch
 Shot to resemble an authentic Sony Cyber-shot point-and-shoot camera from the early 2010s using a CCD sensor with vintage digital rendering and imperfect flash exposure.
 ```
 
+
+<!-- Case 209: 写实感人物竖版照片 (by @liyue_ai) -->
+### Case 209: [写实感人物竖版照片](https://x.com/liyue_ai/status/2057371613059002495) (by [@liyue_ai](https://x.com/liyue_ai))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case209/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - 写实感人物竖版照片"></a> |
+
+**Prompt:**
+
+```
+生成一张 9:16 竖版写实感人物照片，参考高级手机自拍质感，但不要完全普通生活照。整体像是用 iPhone 前置摄像头在温馨卧室中拍摄的精致自拍，保留柔和美型、干净构图和自然高级感。画质为真实手机照片质感，有轻微噪点、轻微柔焦和自然光感，但人物依然精致、漂亮、肤质自然干净，不要变成粗糙低质照片。
+
+画面中是一位成年东方女性，坐在温馨卧室床上，上半身近景自拍构图，镜头略微从上方俯拍，人物位于画面中央偏右，头部微微低下，视线安静看向右下方，表情自然、平静、温柔，嘴唇自然闭合，整体气质柔和、成熟、安静。 
+
+人物拥有浅蓝色或冰蓝色长发，发丝自然蓬松，有轻微凌乱感，部分头发垂落在脸侧和肩颈周围。人物保持精致写实美型，脸型柔和自然，五官清秀，皮肤白皙但不过度磨皮，可保留少量真实肤质纹理、细小毛孔、轻微肤色不均和几处很淡的小黑痣，但整体仍然干净、柔和、好看。不要明显暗沉，不要粗糙脏感。
+
+人物身材丰腴，肩颈线条柔和，胸部饱满，不卡通化。服装为浅蓝色丝缎吊带睡裙，带白色蕾丝花边，胸前有简洁小蝴蝶结和自然褶皱，布料柔软贴合身体，呈现真实丝缎材质光泽。人物一只手自然轻轻拉住肩带或肩部附近衣料，手指数量正常，姿态自然。 
+
+背景为温馨卧室，有床铺、浅色床品、木质床头柜、暖黄色床头灯、窗帘和柔和室内光。背景轻微虚化，保留真实居家空间感。光线为室内暖光与自然光混合，略微偏暖，画面柔和、亲密、生活化，但保持干净高级。
+
+整体风格：写实手机自拍、高级自然美型、轻微 iPhone 前置摄像头质感、柔和暖光、自然肤质、真实比例、温馨卧室、精致但不过度商业修图。
+
+负面要求：
+不要二次元，不要3D CG，不要摄影棚大片，不要低质粗糙照片，不要过度噪点，不要明显脏感，不要过度磨皮，不要塑料皮肤，不要畸形手指，不要多余手指，不要背景纯白。
+```
+
+<!-- Case 210: Y2K Japanese Street Editorial Poster (by @noorlewisx) -->
+### Case 210: [Y2K Japanese Street Editorial Poster](https://x.com/noorlewisx/status/2057349206025847224) (by [@noorlewisx](https://x.com/noorlewisx))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case210/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Y2K Japanese Street Editorial Poster"></a> |
+
+**Prompt:**
+
+```
+Create a bold Y2K Japanese street-editorial collage poster with a clean high-fashion magazine aesthetic, gritty paper textures, torn magazine cutouts, distressed ink splashes, and urban Tokyo-inspired design.
+```
+
+<!-- Case 211: Editorial Male Portrait (by @frametheory058) -->
+### Case 211: [Editorial Male Portrait](https://x.com/frametheory058/status/2057309251048206778) (by [@frametheory058](https://x.com/frametheory058))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case211/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Editorial Male Portrait"></a> |
+
+**Prompt:**
+
+```
+Ultra-realistic 8K editorial male portrait of the uploaded man, using his exact face as the ONLY identity reference — preserve 100% facial structure, jawline, hairstyle volume, beard texture, skin tone, eye shape, pores, and natural imperfections with zero beautification or face alteration. Luxury “quiet wealth” aesthetic blended with cinematic Instagram masculinity. Centered close-up composition, direct eye contact, calm dominant expression, slightly serious mood, no smile. Styled in a fitted black turtleneck under a premium black tailored blazer, no accessories. Dark emerald-green cinematic studio gradient background with soft atmospheric depth. Shot on an 85mm lens at f/1.8 with razor-sharp focus on the eyes, creamy bokeh, ultra-detailed skin texture, visible beard strands, realistic hair fibers, HDR dynamic range, deep contrast shadows, subtle rim light around hair and jawline, soft key light from front-left sculpting the face naturally. Premium GQ magazine color grading, luxury fashion campaign vibe, hyper-realistic photorealism, dramatic yet minimal composition, insanely detailed, rich blacks, elite masculine aura, emotionally captivating, instantly viral social media quality, masterpiece-level realism, natural cinematic skin, modern billionaire aesthetic, studio perfection, award-winning editorial photography --ar 4:5
+```
+
+<!-- Case 212: Avant-Garde Tokyo Fashion Zine Poster (by @john_my07) -->
+### Case 212: [Avant-Garde Tokyo Fashion Zine Poster](https://x.com/john_my07/status/2057319214739046552) (by [@john_my07](https://x.com/john_my07))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case212/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Avant-Garde Tokyo Fashion Zine Poster"></a> |
+
+**Prompt:**
+
+```
+Avant-garde Tokyo fashion zine poster with a refined neo-Y2K editorial aesthetic, inspired by underground Japanese street magazines and luxury urban campaigns. Layered collage composition featuring weathered paper textures, fragmented magazine clippings, faded xerox marks, distressed ink smears, scratched film overlays, and contemporary Harajuku-inspired graphic design.
+Primary visual: a dominant cinematic beauty portrait occupying the upper half of the poster, intense direct gaze with razor-sharp eye detail, naturally textured skin, softly glossy lips, loosely pinned messy hair strands, no eyewear, subtle moody rim lighting, calm yet powerful expression, photographed like a luxury street-fashion campaign with ultra-realistic DSLR depth and authentic facial detail.
+Secondary visuals: exactly two smaller ripped-frame portraits near the lower section, each showing different moods and camera perspectives, arranged asymmetrically like taped instant-film snapshots layered over torn paper pieces.
+Graphic styling: oversized experimental Japanese typography integrated into the composition, minimal condensed English captions, faded metro signage fragments, barcode labels, editorial stamps, folded newspaper textures, masking tape strips, rough brush marks, grainy analog imperfections, layered cut-paper shadows, and sophisticated magazine-inspired spacing.
+Overall mood: clean but rebellious, premium Japanese street-editorial energy, cinematic contrast, muted neutral palette with charcoal, ivory, faded silver, and washed earth tones, subtle flash photography feel, raw fashion photography realism, modern visual culture poster design, highly detailed luxury collage artwork, sharp focus, authentic print imperfections, ultra high resolution, 8K aesthetic, absolutely no kawaii elements, no pastel tones, no cartoon styling.
+```
+
+<!-- Case 213: Miki Style Line Art Portrait (by @ChillaiKalan__) -->
+### Case 213: [Miki Style Line Art Portrait](https://x.com/ChillaiKalan__/status/2057286038624878604) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case213/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Miki Style Line Art Portrait"></a> |
+
+**Prompt:**
+
+```
+​A precise line art illustration portrait in the distinctive Miki style, with clean, defined dark contours and minimal, subtle watercolor wash coloring.
+Subject: A gender-neutral single person with natural medium-length dark hair, wearing round wire-rimmed glasses and a simple dark blue-gray knit sweater, in a clean, soft profile view (facing either left or right). They hold a large bouquet of soft pink and white flowers (roses and small wildflowers) as seen in image_3/4, with one hand visible.
+Background: A minimalist background with a smooth, matte finish of a single color tone (e.g., warm beige or pale mint, as requested), with a very subtle, almost unnoticeable, watercolor paper texture.
+Lighting & Color: Soft diffused natural daylight from the upper-left, illuminating the subject's face gently. A pastel color palette with warm beige/mint tones.
+Composition: Profile chest-up bust shot portrait, composed cleanly, with a calm, nostalgic atmosphere.
+```
+
+<!-- Case 214: Korean Beauty Ultra-Realistic Portrait (by @ZephyraLeigh) -->
+### Case 214: [Korean Beauty Ultra-Realistic Portrait](https://x.com/ZephyraLeigh/status/2057315596862370103) (by [@ZephyraLeigh](https://x.com/ZephyraLeigh))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case214/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Korean Beauty Ultra-Realistic Portrait"></a> |
+
+**Prompt:**
+
+```
+low quality, blurry, distorted anatomy, extra fingers, bad hands, unrealistic smile, messy hair, cartoon, anime, watermark, logo, text, noisy image, oversaturated colors, poorly drawn face, low resolution, bad proportions. 1744x2336
+```
+
+<!-- Case 215: Cinematic B&W Portrait (by @Ciri_ai) -->
+### Case 215: [Cinematic B&W Portrait](https://x.com/Ciri_ai/status/2057318412175757523) (by [@Ciri_ai](https://x.com/Ciri_ai))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case215/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Cinematic B&W Portrait"></a> |
+
+**Prompt:**
+
+```
+A hyper-realistic, cinematic black-and-white portrait of a woman caught in mid-motion, her face partially obscured by sweeping hair strands and intentional motion blur. The subject is framed from the shoulders up, slightly off-center, with her head turning laterally as if pulled by momentum. Long exposure creates luminous horizontal light streaks behind her, suggesting an urban night environment dissolving into abstraction.
+```
+
+<!-- Case 216: Artistic Sketch Portrait Young Man (by @iamsofiaijaz) -->
+### Case 216: [Artistic Sketch Portrait Young Man](https://x.com/iamsofiaijaz/status/2057440838033252767) (by [@iamsofiaijaz](https://x.com/iamsofiaijaz))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case216/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Artistic Sketch Portrait Young Man"></a> |
+
+**Prompt:**
+
+```
+Create a unique artistic sketch-style portrait of a modern young man wearing black sunglasses, with textured pencil and ink drawing effects mixed with abstract collage elements. Change the shirt color to deep olive green with soft watercolor shading. Add layered geometric frames around the face, expressive cross-hatching, ink splashes, handwritten typography notes, and contemporary fashion mood-board aesthetics. Keep the hairstyle detailed and voluminous with realistic sketch strokes. Use an off-white textured paper background with artistic grunge accents, dynamic composition, and editorial magazine-style illustration. High detail, cinematic lighting, modern urban art style, creative mixed-media sketch effect.
+```
+
+<!-- Case 217: NBA Legend Mid-Air Action Poster (by @Taaruk_) -->
+### Case 217: [NBA Legend Mid-Air Action Poster](https://x.com/Taaruk_/status/2057491440406810988) (by [@Taaruk_](https://x.com/Taaruk_))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case217/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - NBA Legend Mid-Air Action Poster"></a> |
+
+**Prompt:**
+
+```
+Dynamic NBA legend poster design, iconic basketball superstar in mid-air action pose performing dunk, jumpshot, or intense celebration, cinematic sports illustration style, highly detailed muscular anatomy, dramatic motion, realistic face with painterly polygon brush texture, explosive paint splashes behind character matching team colors, bold typography with player name in huge vertical letters, motivational quote text layout, sports stats and achievements infographic, clean minimal cream background, modern editorial composition.
+```
+
+<!-- Case 218: Korean Beauty Fashion Portrait (by @Sheldon056) -->
+### Case 218: [Korean Beauty Fashion Portrait](https://x.com/Sheldon056/status/2057296658191483236) (by [@Sheldon056](https://x.com/Sheldon056))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case218/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Korean Beauty Fashion Portrait"></a> |
+
+**Prompt:**
+
+```
+Create a high-quality “chibi sticker diary portrait” based on the uploaded real-life photo. Preserve the subject’s original identity, realistic facial structure, hairstyle, hair color, glasses, outfit, pose, proportions, lighting, and background. Keep the main subject photorealistic and do not transform the entire image into a full illustration.
+```
+
+<!-- Case 219: Cinematic Football Portrait Poster (by @de_mon010) -->
+### Case 219: [Cinematic Football Portrait Poster](https://x.com/de_mon010/status/2057375542652064220) (by [@de_mon010](https://x.com/de_mon010))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case219/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Cinematic Football Portrait Poster"></a> |
+
+**Prompt:**
+
+```
+Ultra realistic cinematic football poster of a stylish young South Asian male footballer with voluminous messy black hair, sharp jawline, trimmed beard, glowing fair skin, wearing Portugal national team red jersey with number 7. Multi-layered dramatic sports collage composition with three different poses — smiling front portrait pointing at Portugal badge, intense side profile close-up, and back pose showing custom name “HASANUR 7” on jersey. Dynamic action shot at the bottom celebratingon football field with clenched fists and soccer ball. Dark stormy sky with lightning, glowing stadium lights, red smoke flares, flying embers, Portugal flag waving in background, intense red and blue cinematic color grading, ultra detailed facial features, realistic skin texture, high contrast sports photography style, epic FIFA World Cup poster aesthetic, shallow depth of field, hyper realistic, 8K, vertical wallpaper composition.
+```
+
+<!-- Case 220: Switzerland Watercolor Travel Poster (by @Sairah_0) -->
+### Case 220: [Switzerland Watercolor Travel Poster](https://x.com/Sairah_0/status/2057302629408276624) (by [@Sairah_0](https://x.com/Sairah_0))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case220/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Switzerland Watercolor Travel Poster"></a> |
+
+**Prompt:**
+
+```
+(Switzerland Poster)
+```
+
+<!-- Case 221: Cinematic Lifestyle Outdoor Portrait (by @aiwithaly) -->
+### Case 221: [Cinematic Lifestyle Outdoor Portrait](https://x.com/aiwithaly/status/2057417304628248645) (by [@aiwithaly](https://x.com/aiwithaly))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case221/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Cinematic Lifestyle Outdoor Portrait"></a> |
+
+**Prompt:**
+
+```
+Cinematic lifestyle portrait of a cheerful young woman sitting on a rustic wooden bench in a lush botanical courtyard, holding an iced coffee in a clear plastic cup with straw, smiling naturally at camera, short wavy dark brown hair, soft natural makeup, oversized pastel pink graphic t-shirt with vintage sun illustration, white shorts, white chunky sneakers with orange soles, one leg extended toward camera creating dramatic perspective, relaxed summer aesthetic, golden hour sunlight filtering through tropical leaves, luxury university campus or historic garden background with stone architecture and large windows, shallow depth of field, warm tones, candid street photography style, ultra realistic skin texture, cozy youthful vibe, DSLR quality, high detail, photorealistic, dynamic low-angle composition, soft shadows, fashion editorial look, 8k.
+```
+
+<!-- Case 222: Luxury Cycling Storyboard Poster (by @Strength04_X) -->
+### Case 222: [Luxury Cycling Storyboard Poster](https://x.com/Strength04_X/status/2057348086247358551) (by [@Strength04_X](https://x.com/Strength04_X))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case222/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Luxury Cycling Storyboard Poster"></a> |
+
+**Prompt:**
+
+```
+- Step 1: Generate storyboard with GPT Image 2
+```
+
+<!-- Case 223: Y2K Japanese Street Collage Poster (by @Kashberg_0) -->
+### Case 223: [Y2K Japanese Street Collage Poster](https://x.com/Kashberg_0/status/2057288879150182779) (by [@Kashberg_0](https://x.com/Kashberg_0))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case223/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Y2K Japanese Street Collage Poster"></a> |
+
+**Prompt:**
+
+```
+Create a bold Y2K Japanese street-editorial collage poster with a clean high-fashion magazine aesthetic, gritty paper textures, torn magazine cutouts, distressed ink splashes, and urban Tokyo-inspired design.
+```
+
+<!-- Case 224: Cosmic Garden Fantasy Portrait (by @DoctorAmna11) -->
+### Case 224: [Cosmic Garden Fantasy Portrait](https://x.com/DoctorAmna11/status/2057463557349117968) (by [@DoctorAmna11](https://x.com/DoctorAmna11))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case224/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Cosmic Garden Fantasy Portrait"></a> |
+
+**Prompt:**
+
+```
+Ultra-realistic cinematic fantasy-science portrait of a beautiful young female scientist inside a futuristic bio-cosmic laboratory garden at night, inspired by dreamy sci-fi storytelling. She is leaning over a glowing holographic solar system projection floating above a sleek glass table, gently touching a luminous orbit line with curiosity and wonder. Her facial features are soft, elegant, and expressive with natural makeup, thick defined eyebrows, warm smile, glowing skin, and loosely tied dark brown hair with cinematic flyaway strands.
+```
+
+<!-- Case 225: Streetwear Magazine Cover Portrait (by @harboriis) -->
+### Case 225: [Streetwear Magazine Cover Portrait](https://x.com/harboriis/status/2057402894014689418) (by [@harboriis](https://x.com/harboriis))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case225/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Streetwear Magazine Cover Portrait"></a> |
+
+**Prompt:**
+
+```
+vertical streetwear magazine cover template, in a warm chocolate brown color palette. The layout includes one large, high-fashion main portrait at the top and two smaller, candid polaroid-style photos layered at the bottom with torn-paper edges. The entire composition is covered in a distressed, vintage overlay with textured paper scratches. It features bold vertical Japanese typography on the left, a barcode in the top right corner, and various graphic design elements like stamps,technical text
+snippets, and grunge borders, creating a cohesive Japanese street-culture aesthetic.
+```
+
+<!-- Case 226: Cat-Eye Glasses Fashion Portrait (by @ChillaiKalan__) -->
+### Case 226: [Cat-Eye Glasses Fashion Portrait](https://x.com/ChillaiKalan__/status/2057542507928736240) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case226/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Cat-Eye Glasses Fashion Portrait"></a> |
+
+**Prompt:**
+
+```
+A young woman with long, dark hair and striking cat-eye glasses is captured in a studio portrait against a solid blue background. She is turned away from the camera, looking over her shoulder with a confident gaze. Her makeup is subtle, with a focus on rosy cheeks and a warm-toned lipstick. She wears a dark, high-necked top that accentuates the curve of her neck and shoulder. The lighting is dramatic, with a strong light source from the left, casting a bright highlight on her face and shoulder, while the right side of her body and hair fall into shadow. The overall mood is sophisticated and alluring.
+```
+
+<!-- Case 227: Bold Monochrome Identity Portrait (by @harboriis) -->
+### Case 227: [Bold Monochrome Identity Portrait](https://x.com/harboriis/status/2057475687276253495) (by [@harboriis](https://x.com/harboriis))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case227/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Bold Monochrome Identity Portrait"></a> |
+
+**Prompt:**
+
+```
+Use my uploaded image as the face reference.
+```
+
+<!-- Case 228: Clean Tech Advertisement Poster (by @Strength04_X) -->
+### Case 228: [Clean Tech Advertisement Poster](https://x.com/Strength04_X/status/2057389379971334309) (by [@Strength04_X](https://x.com/Strength04_X))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case228/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Clean Tech Advertisement Poster"></a> |
+
+**Prompt:**
+
+```
+- A clean tech advertisement poster. A stylish young woman in a white minimalist outfit tilts her head with eyes closed enjoying music beside a giant white wireless earbud case 2.5x her height open and glowing softly, "AURA" engraved on the case lid in silver. Pure clean white background with subtle soft shadows and faint sound wave lines. Ultra minimal thin sans-serif typography "AURA" in light grey filling the background.
+```
+
+<!-- Case 229: Flat Vector Editorial Pattern Illustration (by @Goodmanprotocol) -->
+### Case 229: [Flat Vector Editorial Pattern Illustration](https://x.com/Goodmanprotocol/status/2057347670130511912) (by [@Goodmanprotocol](https://x.com/Goodmanprotocol))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case229/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Flat Vector Editorial Pattern Illustration"></a> |
+
+**Prompt:**
+
+```
+Create a sophisticated flat-vector editorial pattern illustration of [Chicago bulls], composed as a seamless lifestyle-art collage combining iconic landmarks, local culture, vacation scenes, and symbolic city objects.
+```
+
+<!-- Case 230: Korean Beauty Identity Portrait (by @linaa_ai) -->
+### Case 230: [Korean Beauty Identity Portrait](https://x.com/linaa_ai/status/2057400518604206372) (by [@linaa_ai](https://x.com/linaa_ai))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case230/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Korean Beauty Identity Portrait"></a> |
+
+**Prompt:**
+
+```
+Using the provided reference image, create an ultra-realistic Korean street-fashion editorial portrait of a stylish young woman posing outdoors beside a bold orange wall under bright natural sunlight. She is wearing an oversized pastel mint green blazer with structured tailoring, matching high-waisted wide-leg trousers, and a fitted dark brown cropped tube top. Add luxury silver accessories including statement earrings, layered necklaces, rings, and a decorative chain detail attached to the blazer. She has long sleek straight dark brown hair, flawless porcelain skin, soft glam makeup with nude matte lips, sharp brows, and a confident elegant expression. Relaxed fashion pose with one hand against the wall, modern chic attitude. Background features clear blue sky, soft urban scenery, cinematic sunlight shadows, and vibrant color contrast between the orange wall and mint outfit. High-fashion editorial photography, Vogue Korea inspired, luxury street style aesthetic, ultra-detailed fabric textures, realistic skin detail, sharp focus, soft depth of field, premium color grading, photorealistic, 85mm lens, 8k. Negative Prompt: low quality, blurry, bad anatomy, distorted face, extra fingers, bad hands, oversaturated colors, messy hair, duplicate accessories, cartoon, anime, watermark, logo, text, noisy image, low resolution, unrealistic skin, poorly drawn features. 1744x2336
+```
+
+<!-- Case 231: Hollywood Luxury Anime Fashion Portrait (by @Mind_Boticni) -->
+### Case 231: [Hollywood Luxury Anime Fashion Portrait](https://x.com/Mind_Boticni/status/2057519900676280623) (by [@Mind_Boticni](https://x.com/Mind_Boticni))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case231/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Hollywood Luxury Anime Fashion Portrait"></a> |
+
+**Prompt:**
+
+```
+Create a premium 1:1 Hollywood-style luxury anime fashion editorial collage featuring the same stylish Japanese college male anime character with perfectly consistent facial identity across all frames. The character should have sharp anime facial design (clean jawline, expressive eyes, refined proportions) with ultra-detailed semi-realistic anime shading.Include multiple cinematic moments: close-up beauty anime portrait with soft glowing skin, walking through neon Tokyo streets in designer streetwear, sitting in modern university classroom with confident calm expression, rooftop golden hour silhouette with wind effects, and stylish mirror selfie in luxury dorm room.Use cinematic anime lighting, soft bloom, depth of field, film grain, and luxury editorial composition.Add layered magazine collage style with torn paper textures, glossy reflections
+```
+
+<!-- Case 232: Identity Reference Beauty Portrait (by @heyfatema) -->
+### Case 232: [Identity Reference Beauty Portrait](https://x.com/heyfatema/status/2057345382800306192) (by [@heyfatema](https://x.com/heyfatema))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case232/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Identity Reference Beauty Portrait"></a> |
+
+**Prompt:**
+
+```
+Use only my uploaded portrait photo as the identity reference. Accurately preserve my real face shape, facial proportions, facial contours, skin tone, hairstyle outline, hair volume, hairline, and overall natural presence. Do not turn me into another person. Do not over-beautify the face. Do not create an influencer-style face, plastic skin, or anime look.
+```
+
+<!-- Case 233: Pixel Art Character Portrait (by @oggii_0) -->
+### Case 233: [Pixel Art Character Portrait](https://x.com/oggii_0/status/2057504810598089187) (by [@oggii_0](https://x.com/oggii_0))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case233/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Pixel Art Character Portrait"></a> |
+
+**Prompt:**
+
+```
+Create a cute and stylish pixel-art illustration based on the uploaded image in the style of:
+```
+
+<!-- Case 234: Negative Prompt Portrait Template (by @ZephyraLeigh) -->
+### Case 234: [Negative Prompt Portrait Template](https://x.com/ZephyraLeigh/status/2057633608459059272) (by [@ZephyraLeigh](https://x.com/ZephyraLeigh))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case234/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Negative Prompt Portrait Template"></a> |
+
+**Prompt:**
+
+```
+low quality, blurry, distorted face, extra fingers, bad hands, duplicate facial features, unrealistic reflection, cartoon, anime, watermark, logo, text, noisy image, oversaturated colors, poorly drawn eyes, bad anatomy, broken proportions, low resolution.
+```
+
+<!-- Case 235: Identity Reference Fashion Portrait (by @mehvishs25) -->
+### Case 235: [Identity Reference Fashion Portrait](https://x.com/mehvishs25/status/2057635435330064495) (by [@mehvishs25](https://x.com/mehvishs25))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case235/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Identity Reference Fashion Portrait"></a> |
+
+**Prompt:**
+
+```
+Use the uploaded reference image as the exact facial identity reference for the girl. Preserve her real facial structure, eye shape, nose, lips, jawline, skin tone, hairstyle essence, and overall appearance consistency throughout the entire poster. Maintain accurate identity realism with natural skin texture and authentic facial proportions.
+Create an avant-garde Tokyo street-fashion editorial collage poster with a sophisticated neo-Y2K Japanese magazine aesthetic. Inspired by underground Harajuku fashion zines, luxury streetwear campaigns, and raw urban print design. Composition built from layered torn-paper textures, distressed xerox scans, folded magazine scraps, scratched film overlays, faded ink marks, and gritty editorial collage elements.
+Main composition: one large cinematic close-up portrait of the same girl from the reference image dominating the upper section of the poster. Strong eye contact with sharp realistic eye detail, naturally glossy lips, subtle skin imperfections, softly tied messy hair with loose strands framing the face, no glasses, no exaggerated makeup, calm but magnetic expression. Lighting should feel like premium DSLR flash photography mixed with cinematic shadow gradients, creating a modern luxury fashion-campaign atmosphere.
+Lower composition: exactly two smaller collage portraits of the same girl placed asymmetrically near the bottom, styled like ripped instant-film photographs taped onto the layout. Each frame should show different facial expressions, angles, and poses while maintaining perfect facial identity consistency with the reference image.
+Design elements: oversized experimental Japanese typography, small minimal English captions, subtle Tokyo subway signage fragments, barcode labels, newspaper clipping textures, masking tape pieces, distressed brush strokes, folded paper shadows, vintage print imperfections, halftone grain, layered editorial cutouts, and premium fashion-magazine spacing.
+Color palette and mood: muted neutral tones with charcoal black, faded white, soft silver, washed beige, and subtle cool-gray highlights. Clean but rebellious high-fashion energy, cinematic contrast, raw streetwear editorial moodboard aesthetic, ultra-realistic RAW DSLR photography feel, luxury Japanese graphic design style, sharp focus, highly detailed textures, authentic print wear, ultra detailed, 8K quality.
+Avoid: pastel colors, kawaii styling, cartoon elements, bubbles, exaggerated neon effects, anime aesthetics, overly colorful backgrounds, unrealistic beauty filters, duplicated faces, distorted anatomy, or fake AI-looking skin.
+```
+
+<!-- Case 236: Pixar 3D Character Design Sheet (by @TechieBySA) -->
+### Case 236: [Pixar 3D Character Design Sheet](https://x.com/TechieBySA/status/2057511465884557754) (by [@TechieBySA](https://x.com/TechieBySA))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case236/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Pixar 3D Character Design Sheet"></a> |
+
+**Prompt:**
+
+```
+“Create a Pixar 3D style character design sheet. Clean white background. Two characters side by side with a clean dividing line. Bold brushstroke-style title at the top: STEVE VS THE PLANK. Subtitle beneath: 60 seconds. Feels like a week.
+```
+
+<!-- Case 237: Automotive Design Deconstruction Poster (by @Gdgtify) -->
+### Case 237: [Automotive Design Deconstruction Poster](https://x.com/Gdgtify/status/2057541939587878914) (by [@Gdgtify](https://x.com/Gdgtify))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case237/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Automotive Design Deconstruction Poster"></a> |
+
+**Prompt:**
+
+```
+You are an AI automotive designer that deconstructs any object's aerodynamic philosophy, material science, and functional poetry to birth a drivable sculpture. SEMANTIC INFERENCE FRAMEWORK Kinetic DNA Analysis:  Motion Signature: Is it about cutting through or flowing with? Power Source Metaphor: Does it suggest electric silence or combustion rage? Stance Philosophy: Does it crouch predatory or float serene?  Transmutation Logic: When the object embodies:  Sharp edges, aggressive angles, predatory stance, weapon-like intent → Manifest as: Track-Focused Hypercar (exposed carbon, active aero, GT3 energy)  When the object embodies:  Smooth curves, organic flow, biomimicry, effortless grace → Manifest as: Electric Grand Tourer (seamless body, hidden intakes, silent luxury)  When the object embodies:  Brutalist geometry, industrial strength, utilitarian honesty → Manifest as: Safari Rally Weapon (lifted suspension, protective armor, adventure-ready)  OUTPUT: Full car render (3/4 front view), interior detail shot, spec sheet (0-60, top speed, powertrain), brand collaboration ("Pagani x Cactus Edition").
+```
+
+<!-- Case 238: Japanese Graffiti Portrait Poster (by @robertsmith_ai) -->
+### Case 238: [Japanese Graffiti Portrait Poster](https://x.com/robertsmith_ai/status/2057627319263707543) (by [@robertsmith_ai](https://x.com/robertsmith_ai))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case238/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Japanese Graffiti Portrait Poster"></a> |
+
+**Prompt:**
+
+```
+Create a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Japanese visual culture. The poster should feature dynamic graffiti typography, layered spray-paint textures, hand-drawn symbols, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments that strongly reinforce the energetic atmosphere of the design. The overall composition should feel artistic, rebellious, fashionable, and visually striking, while still maintaining a premium editorial poster quality instead of looking messy or overdone. Humanity somehow turned vandalism into luxury wall art. Impressive species. The subject must not replicate the exact pose or expression from the reference photo. Instead, create a completely new pose that feels natural, confident, and full of life. The expression should appear emotionally expressive, charismatic, and engaging, avoiding stiff, awkward, flat, or emotionless body language. The pose should reflect the elegance and sophistication commonly seen in international fashion models, with stylish posture, natural movement, and subtle attitude that enhances the overall cinematic fashion aesthetic. The outfit should feature contemporary stylish casual fashion with strong visual appeal. Avoid plain or repetitive clothing designs. Use fashionable layering, modern streetwear inspiration, premium casual styling, and a balanced combination of colors, patterns, textures, and fabric types that create a rich and non-monotonous appearance. The clothing should feel trendy, fashionable, youthful, and visually premium while still fitting naturally into the Japanese graffiti poster concept. The background and poster decorations should be filled with thematic urban Japanese-inspired visual elements such as graffiti walls, spray textures, painted symbols, urban signage, layered stickers, modern Japanese graphic motifs, abstract shapes, paint drips, street fashion aesthetics, and stylish decorative compositions that enhance depth and artistic intensity without distracting from the subject. Lighting should feel cinematic and fashionable, with strong contrast, clean highlights, realistic skin texture, and high-end editorial poster quality. The final result must look like a premium modern street-fashion campaign poster with highly detailed textures, balanced composition, vibrant color harmony, realistic proportions, ultra-sharp focus, and immersive visual storytelling. Ultra-detailed, highly aesthetic, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high resolution.
+```
+
+<!-- Case 239: Brand Identity Portrait (by @Shinning1010) -->
+### Case 239: [Brand Identity Portrait](https://x.com/Shinning1010/status/2057332420383494441) (by [@Shinning1010](https://x.com/Shinning1010))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case239/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Brand Identity Portrait"></a> |
+
+**Prompt:**
+
+```
+Use my uploaded portrait photo as the only identity reference. Preserve only the person’s real facial features, face shape, hairstyle, hair color, skin tone, and overall temperament. Generate an ultra-realistic close-up portrait in natural light. The subject is shown in side profile, gently lowering her head toward a blooming white lily. The flower is placed in the foreground and covered with visible dewdrops. Warm golden backlight comes from the side and behind, creating a soft glowing rim light on the hair, with slight lens flare and a shallow depth of field. The background is a dark green natural blur. The expression is calm, soft, and natural, with the subject not looking at the camera. Keep realistic skin texture, clear eyelashes, and detailed hair strands. The overall mood is romantic, clean, dreamy, and cinematic, like a summer morning photo. Vertical 9:16, high-quality realistic photography, no text, no watermark
+```
+
+<!-- Case 240: Outdoor Lifestyle Open Sky Portrait (by @Shorelyn_) -->
+### Case 240: [Outdoor Lifestyle Open Sky Portrait](https://x.com/Shorelyn_/status/2057304323047240086) (by [@Shorelyn_](https://x.com/Shorelyn_))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case240/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Outdoor Lifestyle Open Sky Portrait"></a> |
+
+**Prompt:**
+
+```
+Vibe: outdoor lifestyle · introspective · open sky
+```
+

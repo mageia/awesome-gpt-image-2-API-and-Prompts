@@ -5485,3 +5485,83 @@ INPUT: [DOMAIN OR CATEGORY]  SYSTEM: Generate a 2×2 luxury poster series transl
 16:9 -> class theoretical_physics_infographic_dna: def __init__(self): self.subject = "[ai selects: 4 distinct advanced physics theorems or paradoxes (e.g., bell's theorem, hawking radiation, string theory)]" self.parents = { "composition_parent": "large hadron collider blueprints — hyper-complex radial symmetry, intersecting particle beam rings, millimeter-precise drafting", "atmosphere_parent": "deep space observatory photography — pitch black voids, glowing ultraviolet radiation, high-contrast laser illumination", "graphic_parent": "chalkboard maximalism — elegant, dense mathematical notation floating as glowing white vectors", "detail_parent": "victorian brass optical instruments — finely milled prisms, glass lenses, and mirrored refraction planes" } self.mutations = { "medium_mutation": "the mathematical formulas solidify into glowing, three-dimensional glass sculptures bending the light around them", "information_mutation": "particle collision tracks are woven like fine gold thread through the dark background", "semantic_mutation": "the invisible physical law is rendered as a massive, tangible, gravitational machine distorting the grid of the poster itself" } def generate_grid(self): instruction = """ generate a 2x2 grid of vertical luxury infographic posters giving physical form to the chosen [subject]s. invent a magnificent scientific machine or optical diorama for each. explode the layers to show quantum states, gravitational warping, equations, and subatomic scale. the design must feel like a classified schematic from a hyper-advanced, aesthetically obsessed civilization. semantic inference must make the invisible laws of physics breathtakingly visible. """ return render( instruction, format="2x2 grid, vertical luxury posters, conceptual scientific infographic", typography=""" large title: [name of theorem/paradox] subtitle: [the physicist / the era] microtext: [the core equation / metric tensor / explanatory blazon] """, composition="strict radial or gravitational-well symmetry. razor-sharp fine lines contrasting with deep voids.", lighting="harsh, clinical laser light interacting with pure optical glass and vantablack.", constraints="no cartoon atoms, no clip-art planets, no messy chalkboards. only pristine, museum-grade scientific aesthetic." )
 ```
 
+
+<!-- Case 298: Football Player Dynamic Poster (by @harboriis) -->
+### Case 298: [Football Player Dynamic Poster](https://x.com/harboriis/status/2057296163972567081) (by [@harboriis](https://x.com/harboriis))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case298/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Football Player Dynamic Poster"></a> |
+
+**Prompt:**
+
+```
+A dynamic mixed-media football poster featuring James Rodríguez in Colombia’s national team colors, designed with a bold street-art editorial aesthetic. The composition blends realistic sports photography with layered urban graphic design elements. Background features a gritty city basketball-court wall covered in oversized graffiti murals, torn posters, paint drips, neon spray textures, stickers, marker tags, and distressed concrete textures in yellow, blue, and red tones. James stands in an explosive action pose controlling the ball mid-motion, illuminated by dramatic cinematic lighting and colorful urban reflections. Typography: massive hand-painted graffiti lettering reading “JAMES RODRÍGUEZ” integrated diagonally across the composition with rough brush textures and paint splatter overlap. Add layered halftone dots, motion streaks, comic-book speed effects, urban doodles, ripped-paper collage textures, and bold geometric accents. Style feels like a fusion of Nike World Cup campaign visuals, Hypebeast editorial design, Latin American street culture, and modern football social-media posters. High contrast, energetic, rebellious, chaotic but premium composition. Ultra-detailed 4K digital artwork, trendy sports poster aesthetic, vibrant urban color grading.
+```
+
+<!-- Case 299: Travel Food Advertisement Poster (by @Naiknelofar788) -->
+### Case 299: [Travel Food Advertisement Poster](https://x.com/Naiknelofar788/status/2057282710469767241) (by [@Naiknelofar788](https://x.com/Naiknelofar788))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case299/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Travel Food Advertisement Poster"></a> |
+
+**Prompt:**
+
+```
+Ultra-detailed premium travel-food advertisement poster for [CITY/COUNTRY], vertical composition, inspired by luxury Lay’s-style chips advertising. A realistic chips packet placed at the bottom center as the main hero object, matching the exact premium commercial layout of a floating chips campaign.
+```
+
+<!-- Case 300: Vintage Watercolor Travel Poster (by @Taaruk_) -->
+### Case 300: [Vintage Watercolor Travel Poster](https://x.com/Taaruk_/status/2057298831289761976) (by [@Taaruk_](https://x.com/Taaruk_))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case300/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Vintage Watercolor Travel Poster"></a> |
+
+**Prompt:**
+
+```
+Minimalist vintage travel poster in delicate watercolor and ink sketch style, elegant European travel illustration, soft neutral tones on textured ivory paper background, hand-painted cityscape with loose watercolor washes, fine architectural pen linework, cozy café storefronts, bicycles, cobblestone streets, flower-filled balconies, classic street lamps, soft atmospheric perspective, cinematic morning light, dreamy travel journal aesthetic, sophisticated typography layout with large serif country/city title at the top, handwritten subtitle and poetic tagline, small passport-style stamps, elegant editorial composition, airy negative space, timeless travel magazine design.
+Scene variations: • London  rainy streets, red double-decker bus, black taxi, Big Ben in the background, cozy bookstore café, Portobello Road signage, muted gray-beige palette with soft red accents. • Greece  whitewashed Santorini alleyways, blue domes, bougainvillea flowers, seaside café, Mediterranean sunlight, bright white and soft ocean blue palette. • Switzerland alpine lakeside town, snowy mountains, vintage tram, Swiss flags, luxury café terraces, peaceful European old-town atmosphere. • Australia Melbourne-style tram street, jacaranda trees with purple blossoms, sunny café culture, modern-meets-vintage urban scenery.
+```
+
+<!-- Case 301: Retro Cafe Scrapbook Poster (by @j_smeaton99) -->
+### Case 301: [Retro Cafe Scrapbook Poster](https://x.com/j_smeaton99/status/2057295551327347035) (by [@j_smeaton99](https://x.com/j_smeaton99))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case301/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Retro Cafe Scrapbook Poster"></a> |
+
+**Prompt:**
+
+```
+Whimsical retro cafe scrapbook poster, dreamy pistachio rose latte aesthetic, layered iced pistachio drink with rose cream foam and milk gradients, ultra-realistic beverage photography blended with hand-drawn journal doodles, soft watercolor marker sketches, playful handwritten cafe notes, tiny arrows and ingredient callouts, sticker-book collage composition, pastel stationery aesthetic, cozy Korean cafe moodboard style, textured paper scraps and washi tape layers, sparkles, bows, cherries, and tiny floral doodles surrounding the drink, trendy Pinterest-inspired cafe branding, warm natural window lighting, creamy foam textures with realistic condensation droplets, rich pistachio green paired with blush pink and cream tones, detailed ice cubes and glass reflections, modern Gen Z dessert-shop aesthetic, artistic flatlay composition with cute props like mini spoons, cookies, flowers, and polaroid snapshots, editorial social-media-ready food poster vibe, ultra detailed, soft dreamy color palette, stylish lifestyle cafe photography.
+```
+
+<!-- Case 302: Blueberry Lavender Soda Scrapbook Poster (by @john_my07) -->
+### Case 302: [Blueberry Lavender Soda Scrapbook Poster](https://x.com/john_my07/status/2057417084259487783) (by [@john_my07](https://x.com/john_my07))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case302/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Blueberry Lavender Soda Scrapbook Poster"></a> |
+
+**Prompt:**
+
+```
+Vintage-inspired blueberry lavender soda scrapbook poster, dreamy artisanal cafe advertisement aesthetic, sparkling layered blueberry soda with lavender cream foam and translucent ice cubes, ultra-realistic beverage photography blended with playful hand-drawn doodles and pastel marker sketches, fizzy carbonation bubbles visible through the glass, soft purple-to-blue gradient drink tones with creamy white foam top, whimsical handwritten cafe notes and tiny ingredient arrows, sticker-book collage layout with torn paper textures and washi tape accents, cozy Korean dessert cafe moodboard style, delicate lavender flower doodles, bows, stars, tiny moons, blueberries, and sparkles surrounding the drink, textured notebook paper scraps layered organically across the composition, trendy Pinterest-inspired beverage branding, warm cinematic natural window lighting, glossy condensation droplets and realistic glass reflections, editorial flatlay cafe photography mixed with journal-style illustrations, cute props like vintage spoons, blueberry pastries, mini flowers, recipe cards, cassette tapes, and polaroid snapshots, nostalgic Gen Z cafe aesthetic with Y2K undertones, dreamy soft-focus atmosphere, highly detailed scrapbook composition, artistic social-media-ready dessert shop poster vibe, soft pastel lavender, dusty blue, cream, and silver color palette, stylish lifestyle cafe photography, premium editorial food advertisement aesthetic.
+```
+
+<!-- Case 303: Scientific Concept Anchor Poster (by @Gdgtify) -->
+### Case 303: [Scientific Concept Anchor Poster](https://x.com/Gdgtify/status/2057297076032262574) (by [@Gdgtify](https://x.com/Gdgtify))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case303/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Scientific Concept Anchor Poster"></a> |
+
+**Prompt:**
+
+```
+Anchor: The word "[SCIENTIFIC CONCEPT (e.g.,  CARBON / DNA / GRAVITY)]" :: where each  letter is constructed from the molecular  structure, atomic bonds, or physical  diagrams associated with that concept ::4  Morphology: DNA — letters formed from  double helix ladder rungs and backbone  curves. CARBON — letters built from  benzene ring hexagons and bond lines.  GRAVITY — letters curve and stretch  as if pulled toward a point mass,  lower strokes elongated by gravitational  lensing. All fully readable ::3  Material Physics: Scientific whiteboard  aesthetic — white chalk or marker on  dark ground. Or blueprint blue with  white diagrammatic linework ::3  Illumination: Flat, even, academic —  as if projected on a lecture screen ::2  Render Stack: Science magazine cover,  university poster, Ted Talk title card ::1  Negative: [photorealistic molecular  renders, 3D shading, color-coded  atoms in standard CPK colors,  realistic laboratory imagery] :: -1
+```
+
