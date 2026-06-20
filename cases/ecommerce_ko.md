@@ -648,3 +648,31 @@ full prompt:
   }
 }
 ```
+
+<!-- Case 175: 매운 칠리 처트니 제품 사진 (by @iamaiistudio) -->
+### Case 175: [매운 칠리 처트니 제품 사진](https://x.com/iamaiistudio/status/2068032837610356989) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ecommerce_case175/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 매운 칠리 처트니 제품 사진"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ecommerce_case175/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 매운 칠리 처트니 제품 사진"></a></td></tr>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ecommerce_case175/output3.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 매운 칠리 처트니 제품 사진"></a></td></tr>
+</table>
+
+**프롬프트:**
+
+```
+Overhead shot of a glass jar of spicy tomato chili chutney on a dark stone surface, surrounded by whole red tomatoes, tomato halves, fresh red chili peppers, black peppercorns, and a small wooden bowl with chutney and a spoon. Warm earthy backdrop, soft directional light, deep rich shadows, high contrast, clean minimal styling, commercial product photography, ultra-detailed, 4K.
+```
+
+<!-- Case 176: 공중부양 푸드 포토그래피 세트 (by @iamaiistudio) -->
+### Case 176: [공중부양 푸드 포토그래피 세트](https://x.com/iamaiistudio/status/2067851560168931394) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ecommerce_case176/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 공중부양 푸드 포토그래피 세트"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ecommerce_case176/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 공중부양 푸드 포토그래피 세트"></a></td></tr>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ecommerce_case176/output3.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 공중부양 푸드 포토그래피 세트"></a></td></tr>
+</table>
+
+**프롬프트:**
+
+```
+A professional studio food photography series showcasing deconstructed dishes captured mid-air in dramatic high-speed levitation. Set against a seamless dusty pink backdrop with soft, even studio lighting, the ingredients burst and float in dynamic formations. Featured dishes include a suspended tiramisu with its components (scoops of gelato, ladyfingers, mascarpone cream, and coffee beans) hovering in the air, borscht elements (beets, rye bread slices, fresh herbs) floating above a ceramic bowl of soup resting on a wooden board, and a sourdough toast topped with mashed avocado and a runny poached egg caught mid-split. Fine details like flying crumbs, spice particles, scattered herbs, and liquid droplets should be razor-sharp with a shallow depth of field. Soft shadows fall beneath the main suspended elements.
+```

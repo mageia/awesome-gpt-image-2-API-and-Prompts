@@ -1309,3 +1309,16 @@ Minimal white bottle with golden pump surrounded by cracked coconuts, coconut mi
 ```
 [PRODUCT] reassembling in midair from scattered pieces, reverse-disintegration effect, mechanical precision, each component suspended at a different depth, dark void background, high-concept product advertising, cinematic VFX.
 ```
+
+<!-- Case 198: Anuncio de Ray-Ban Aviator gigante (by @MrDasOnX) -->
+### Case 198: [Anuncio de Ray-Ban Aviator gigante](https://x.com/MrDasOnX/status/2068024611074367579) (by [@MrDasOnX](https://x.com/MrDasOnX))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ad-creative_case198/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - Anuncio de Ray-Ban Aviator gigante"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ad-creative_case198/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - Anuncio de Ray-Ban Aviator gigante"></a></td></tr>
+</table>
+
+**Prompt:**
+
+```
+Minimalist commercial ad featuring oversized Ray-Ban Aviator sunglasses, ultra-clean design. A young woman in all-white outfit leans casually against the giant sunglasses, relaxed confident pose, eyes closed, also holding a regular-sized pair in her hand. Soft gradient golden background with large bold white “RAY-BAN” text behind. Glossy reflective floor, soft studio lighting, modern high-end product photography. Small top-right text “Designed by Mr Das”. Bottom center tagline in small white font: “Iconic vision, every look.”
+```

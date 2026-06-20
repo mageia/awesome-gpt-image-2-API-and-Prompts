@@ -705,3 +705,16 @@ Use this tri-fold layout:
 - The subject should be in a relaxed, neutral stance.
 - Place these views over very subtle vertical and horizontal grid lines resembling a technical schematic blueprint.
 ```
+
+<!-- Case 28: Pixar 香蕉英雄角色 (by @iamaiistudio) -->
+### Case 28: [Pixar 香蕉英雄角色](https://x.com/iamaiistudio/status/2068003049600380972) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/character_case28/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Pixar 香蕉英雄角色"></a> |
+
+**提示词:**
+
+```
+Pixar-style 3D animated banana character, single fruit brought to life. A charismatic male figure with bold confident eyes, thick expressive brows, and a wide grin full of gleaming white teeth with sparkle accents. Smooth, slightly glossy yellow peel with soft highlights. Stubby cartoon arms and legs, posed upright with arms crossed in a heroic stance. Background features a blurred bunch of bananas. Standing on a wooden dining table beside a sun-filled window in a cozy modern home interior. Rich vibrant colors, cinematic lighting, soft natural shadows, ultra-detailed high-fidelity textures.
+```

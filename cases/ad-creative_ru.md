@@ -1283,3 +1283,16 @@ Minimal white bottle with golden pump surrounded by cracked coconuts, coconut mi
 ```
 Product shot of a 330ml aluminum can called "VINE GLOW – Natural Extract" placed center-frame against a clean light grey studio background. The can is adorned with refined purple vine line illustrations. A dramatic horizontal torn paper reveal slices across the can and background, exposing glistening red and purple grapes inside, covered in water droplets with a glossy wet texture. Soft studio lighting, ultra-sharp focus, photorealistic commercial packaging photography, symmetrical layout, 8K resolution.
 ```
+
+<!-- Case 198: Реклама гигантских Ray-Ban Aviator (by @MrDasOnX) -->
+### Case 198: [Реклама гигантских Ray-Ban Aviator](https://x.com/MrDasOnX/status/2068024611074367579) (by [@MrDasOnX](https://x.com/MrDasOnX))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ad-creative_case198/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - Реклама гигантских Ray-Ban Aviator"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="../images/ad-creative_case198/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - Реклама гигантских Ray-Ban Aviator"></a></td></tr>
+</table>
+
+**Промпт:**
+
+```
+Minimalist commercial ad featuring oversized Ray-Ban Aviator sunglasses, ultra-clean design. A young woman in all-white outfit leans casually against the giant sunglasses, relaxed confident pose, eyes closed, also holding a regular-sized pair in her hand. Soft gradient golden background with large bold white “RAY-BAN” text behind. Glossy reflective floor, soft studio lighting, modern high-end product photography. Small top-right text “Designed by Mr Das”. Bottom center tagline in small white font: “Iconic vision, every look.”
+```

@@ -5,7 +5,7 @@
 <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=banner&utm_campaign=awesome-gpt-image-2-API-and-Prompts"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/logo.png" alt="Project logo"></a>
 
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
-[![895 Curated Prompts](https://img.shields.io/badge/Prompts-895_Curated_Cases-111111)](README.md)
+[![904 Curated Prompts](https://img.shields.io/badge/Prompts-904_Curated_Cases-111111)](README.md)
 [![🎬 GPT-Image-2 × Seedance 2.0 - Cinematic Workflow](https://img.shields.io/badge/🎬_GPT--Image--2_×_Seedance_2.0-Cinematic_Workflow-blueviolet)](https://github.com/EvoLinkAI/GPT-Image-2-Seedance2-Workflow)
 [![🛠️ GPT-Image-2 Gen Skill - Callable Skill](https://img.shields.io/badge/🛠️_GPT--Image--2_Gen_Skill-Callable_Skill-green)](https://docs.evolink.ai/en/api-manual/image-series/gpt-image-2/gpt-image-2-image-generation?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-image-2-API-and-Prompts)
 
@@ -44,7 +44,7 @@
 
 欢迎来到 **Awesome GPT Image 2 API and Prompts** 仓库！🤗
 
-精选收录 **889+ 个高质量 GPT-Image-2 提示词**、API 使用模式与可复用视觉工作流，面向 AI 图像生成实践。
+精选收录 **904+ 个高质量 GPT-Image-2 提示词**、API 使用模式与可复用视觉工作流，面向 AI 图像生成实践。
 
 无论你想找 GPT-Image-2 提示词示例、文生图最佳实践、图像编辑技巧，还是可直接复用的 prompt 模板，这里都可以作为你的参考入口。
 
@@ -80,6 +80,8 @@
 > 关于 API 的更多使用方式，请继续阅读下方“使用 GPT Image 2 API”部分。
 
 ## 📰 最新动态
+
+**2026年6月20日：** 从每日图片提示词更新 loop 中新增 9 个 GPT-Image-2 提示词案例（2 个电商、1 个广告创意、3 个海报、1 个角色、2 个 UI），已完成语义审核与媒体校验
 
 **2026年6月18日：** 从每日图片提示词更新 loop 中新增 8 个 GPT-Image-2 提示词案例（2 个人像、2 个海报、2 个广告创意、1 个电商、1 个 UI），已完成语义审核与媒体校验
 
@@ -162,7 +164,7 @@ curl --request POST \
 
 ## 🛒 E-commerce Cases
 
-> **16 curated cases**
+> **15 curated cases**
 
 <!-- Case 151: E-commerce Main Image - Miniature Diorama Skincare Advertisement (by @Strength04_X) -->
 ### Case 151: [E-commerce Main Image - Miniature Diorama Skincare Advertisement](https://x.com/Strength04_X/status/2048074514278563949) (by [@Strength04_X](https://x.com/Strength04_X))
@@ -510,9 +512,37 @@ full prompt:
 }
 ```
 
+<!-- Case 175: 香辣番茄辣酱产品特写 (by @iamaiistudio) -->
+### Case 175: [香辣番茄辣酱产品特写](https://x.com/iamaiistudio/status/2068032837610356989) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ecommerce_case175/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 香辣番茄辣酱产品特写"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ecommerce_case175/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 香辣番茄辣酱产品特写"></a></td></tr>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ecommerce_case175/output3.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 香辣番茄辣酱产品特写"></a></td></tr>
+</table>
+
+**提示词:**
+
+```
+Overhead shot of a glass jar of spicy tomato chili chutney on a dark stone surface, surrounded by whole red tomatoes, tomato halves, fresh red chili peppers, black peppercorns, and a small wooden bowl with chutney and a spoon. Warm earthy backdrop, soft directional light, deep rich shadows, high contrast, clean minimal styling, commercial product photography, ultra-detailed, 4K.
+```
+
+<!-- Case 176: 悬浮美食摄影组图 (by @iamaiistudio) -->
+### Case 176: [悬浮美食摄影组图](https://x.com/iamaiistudio/status/2067851560168931394) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ecommerce_case176/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 悬浮美食摄影组图"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ecommerce_case176/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 悬浮美食摄影组图"></a></td></tr>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ecommerce_case176/output3.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 悬浮美食摄影组图"></a></td></tr>
+</table>
+
+**提示词:**
+
+```
+A professional studio food photography series showcasing deconstructed dishes captured mid-air in dramatic high-speed levitation. Set against a seamless dusty pink backdrop with soft, even studio lighting, the ingredients burst and float in dynamic formations. Featured dishes include a suspended tiramisu with its components (scoops of gelato, ladyfingers, mascarpone cream, and coffee beans) hovering in the air, borscht elements (beets, rye bread slices, fresh herbs) floating above a ceramic bowl of soup resting on a wooden board, and a sourdough toast topped with mashed avocado and a runny poached egg caught mid-split. Fine details like flying crumbs, spice particles, scattered herbs, and liquid droplets should be razor-sharp with a shallow depth of field. Soft shadows fall beneath the main suspended elements.
+```
+
 ## 📣 Ad Creative Cases
 
-> **30 个精选案例** — [浏览全部广告创意提示词 →](cases/ad-creative.md)
+> **25 个精选案例** — [浏览全部广告创意提示词 →](cases/ad-creative.md)
 
 <!-- Case 176: Luxury Chronograph Watch Ad (by @AlwaveNazca) -->
 ### Case 176: [Luxury Chronograph Watch Ad](https://x.com/AlwaveNazca/status/2048147643809865950) (by [@AlwaveNazca](https://x.com/AlwaveNazca))
@@ -1074,9 +1104,22 @@ Minimal white bottle with golden pump surrounded by cracked coconuts, coconut mi
 Product shot of a 330ml aluminum can called "VINE GLOW – Natural Extract" placed center-frame against a clean light grey studio background. The can is adorned with refined purple vine line illustrations. A dramatic horizontal torn paper reveal slices across the can and background, exposing glistening red and purple grapes inside, covered in water droplets with a glossy wet texture. Soft studio lighting, ultra-sharp focus, photorealistic commercial packaging photography, symmetrical layout, 8K resolution.
 ```
 
+<!-- Case 198: Ray-Ban 巨型飞行员墨镜广告 (by @MrDasOnX) -->
+### Case 198: [Ray-Ban 巨型飞行员墨镜广告](https://x.com/MrDasOnX/status/2068024611074367579) (by [@MrDasOnX](https://x.com/MrDasOnX))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ad-creative_case198/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - Ray-Ban 巨型飞行员墨镜广告"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ad-creative_case198/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - Ray-Ban 巨型飞行员墨镜广告"></a></td></tr>
+</table>
+
+**提示词:**
+
+```
+Minimalist commercial ad featuring oversized Ray-Ban Aviator sunglasses, ultra-clean design. A young woman in all-white outfit leans casually against the giant sunglasses, relaxed confident pose, eyes closed, also holding a regular-sized pair in her hand. Soft gradient golden background with large bold white “RAY-BAN” text behind. Glossy reflective floor, soft studio lighting, modern high-end product photography. Small top-right text “Designed by Mr Das”. Bottom center tagline in small white font: “Iconic vision, every look.”
+```
+
 ## 🍌 Portrait & Photography Cases
 
-> **132 个精选案例** — [浏览全部人像与摄影提示词 →](cases/portrait.md)
+> **126 个精选案例** — [浏览全部人像与摄影提示词 →](cases/portrait.md)
 
 <!-- Case 124: Convenience Store Neon Portrait (by @BubbleBrain) -->
 ### Case 124: [Convenience Store Neon Portrait](https://x.com/BubbleBrain/status/2045167461147042202) (by [@BubbleBrain](https://x.com/BubbleBrain))
@@ -3390,7 +3433,7 @@ Ultra-realistic photo of a woman seated on stone steps in a vibrant Mediterranea
 
 ## 🎨 Poster & Illustration Cases
 
-> **151 个精选案例** — [浏览全部海报与插画提示词 →](cases/poster.md)
+> **148 个精选案例** — [浏览全部海报与插画提示词 →](cases/poster.md)
 
 <!-- Case 214: Peacock Botanical Vintage Symmetrical Art Print (by @dotey) -->
 ### Case 214: [Peacock Botanical Vintage Symmetrical Art Print](https://x.com/dotey/status/2047803054422901046) (by [@dotey](https://x.com/dotey))
@@ -7490,9 +7533,65 @@ Mood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrai
 Aspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution.
 ```
 
+<!-- Case 410: 狮驼岭妖魔王庭 (by @iamaiistudio) -->
+### Case 410: [狮驼岭妖魔王庭](https://x.com/iamaiistudio/status/2068096704973549620) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/poster_case410/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - 狮驼岭妖魔王庭"></a> |
+
+**提示词:**
+
+```
+Dark, eerie Chinese mythological atmosphere blending traditional aesthetics with cinematic realism, meticulous detail, multi-pass rendering, flawless modeling. Journey to the West — the treacherous Lion-Camel Ridge, teeming with countless demons. Three massive thrones: the heavily armored Demon Elephant King seated on the left, the heavily armored Demon Lion King enthroned at center, the heavily armored Great Roc Demon King on the right. A diminutive Sun Wukong — back turned to the viewer — marches forward with his Ruyi Jingu Bang resting on his shoulder, clad in full battle armor. Low-angle upward shot, telephoto compression, dramatic hard shadows. Maximum detail, multiple refinement passes, precise perspective and structural lines, exquisite craftsmanship.
+```
+
+<!-- Case 411: 莫斯科瑞士风格社论海报 (by @Naiknelofar788) -->
+### Case 411: [莫斯科瑞士风格社论海报](https://x.com/Naiknelofar788/status/2067991181376868462) (by [@Naiknelofar788](https://x.com/Naiknelofar788))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/poster_case411/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 莫斯科瑞士风格社论海报"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/poster_case411/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 莫斯科瑞士风格社论海报"></a></td></tr>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/poster_case411/output3.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 莫斯科瑞士风格社论海报"></a></td></tr>
+</table>
+
+**提示词:**
+
+```
+Design a contemporary Swiss Style editorial poster for Moscow, Russia. Use a large bold sans-serif capital letter “M” as the main typographic structure. The “M” must be very clear, clean, geometric, solid, and dominant, with no stroke outline, no border, no shadow outline, and no decorative treatment. The silhouette of the letter “M” must remain easy to read at first glance. Do not let the illustration obscure or distort the shape of the letter. The poster should follow a precise left-aligned Swiss grid system with generous negative space.
+
+Inside the “M”, create a simple, logical, and restrained flat illustration of Moscow’s city landscape character. Use only a few essential visual elements: simplified modern skyscrapers inspired by Moscow City business district, the calm curve of the Moscow River, a subtle silhouette of the Kremlin walls and towers, onion domes of Saint Basil’s Cathedral in a simplified geometric form, a soft green park landscape inspired by Gorky Park or Zaryadye Park, and two pedestrians on a clean riverside walkway. Keep the composition minimal, spacious, and easy to understand. Do not add too many landmarks, people, signs, vehicles, monuments, statues, fountains, trains, buses, or small decorative objects.
+
+The illustration should suggest Moscow’s identity as a capital city where imperial history, Soviet monumental scale, modern glass skyscrapers, riverfront public spaces, and vast urban rhythm coexist in a clean contemporary way. Use flat vector shapes, clean silhouettes, minimal linework, simplified architecture, and believable scale relationships. Keep the scene lightly lively but not busy. The illustration should support the letter “M”, not compete with it.
+
+Allow only extremely subtle overlap outside the “M” frame using simple organic or atmospheric elements only: a few leaves from riverside trees or soft atmospheric mist over the river may slightly extend beyond the letter edge. Keep 97% of the illustration inside the “M”. Do not let people, buildings, domes, towers, vehicles, faces, paths, signage, or complex objects overlap outside the letter. The “M” must remain clearly readable and visually dominant.
+
+Place the headline “Moscow” below the letter in bold sans-serif type, title case, not all caps, left aligned to the same grid. Under the headline, add this short body paragraph in small regular sans-serif text, also left aligned, with clean spacing and refined editorial hierarchy:
+
+“Moscow moves through grand historic layers, monumental architecture, river bends, and a dense modern skyline. Between imperial heritage, Soviet scale, and contemporary urban energy, the city holds a character that is powerful, structured, and constantly evolving.”
+
+No icons, no badges, no decorative symbols. The overall design should feel Swiss minimalist: strong grid, precise alignment, asymmetrical balance, clean typography, generous negative space, restrained composition, and modern cultural city poster aesthetics.
+
+Color palette: warm ivory background, deep navy or charcoal typography, concrete gray, glass blue, pine green, Kremlin red accents, river blue-gray, pale beige, and soft black accents. Matte paper finish, subtle paper grain, crisp edges, flat contemporary illustration, modern Moscow metropolitan mood, calm but strong, sophisticated, balanced, and print-ready.
+
+Negative prompt: photorealistic, 3D render, glossy, maximalist, overcrowded city, complex illustration, too many details, too many landmarks
+```
+
+<!-- Case 412: 人群中的低语海报 (by @iamaiistudio) -->
+### Case 412: [人群中的低语海报](https://x.com/iamaiistudio/status/2067837876822581352) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+<table>
+<tr><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/poster_case412/output.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 人群中的低语海报"></a></td><td width="50%"><a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/poster_case412/output2.jpg" width="100%" alt="GPT-Image-2 Prompt Example - 人群中的低语海报"></a></td></tr>
+</table>
+
+**提示词:**
+
+```
+A sorrowful Korean psychological drama movie poster depicting a beautiful young woman photographed from a dramatic overhead angle, camera pointing straight down at her face as she gazes upward. Her long dark hair is loosely gathered in an undone bun with loose strands framing her face. Pale complexion, an expression of quiet emotional exhaustion. She is dressed in an oversized burgundy wool sweater, dark grey leggings, and scuffed white sneakers, holding a worn paperback book tightly against her chest. Surrounding her, a busy subway station where commuters stream past in long-exposure motion blur, their figures becoming ghostly streaks of movement against cold grey platform tiles. The contrast between her stillness and their motion creates a powerful sense of solitude. Korean title text at the top reads: "군중 속의 속삭임 (Gunjung Sogui Soksagim - Whispers in the Crowd)". Bold white serif typography fills the center of the composition. Visual style: warm-beige film grade, fine analog grain, shallow depth of field, soft tungsten underground lighting, subtle atmospheric haze, cinematic K-drama mood. Shot on Sony A7R IV, 50mm, slow shutter speed.
+```
+
 ## 🧍 Character Design Cases
 
-> **12 个精选案例** — [浏览全部角色设计提示词 →](cases/character.md)
+> **13 个精选案例** — [浏览全部角色设计提示词 →](cases/character.md)
 
 <!-- Case 2: Persona5 Character Reference Card (by @iamrednightS) -->
 ### Case 2: [Persona5 Character Reference Card](https://x.com/iamrednightS/status/2045075682837836265) (by [@iamrednightS](https://x.com/iamrednightS))
@@ -8001,9 +8100,22 @@ Use this tri-fold layout:
 - Place these views over very subtle vertical and horizontal grid lines resembling a technical schematic blueprint.
 ```
 
+<!-- Case 28: Pixar 香蕉英雄角色 (by @iamaiistudio) -->
+### Case 28: [Pixar 香蕉英雄角色](https://x.com/iamaiistudio/status/2068003049600380972) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/character_case28/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - Pixar 香蕉英雄角色"></a> |
+
+**提示词:**
+
+```
+Pixar-style 3D animated banana character, single fruit brought to life. A charismatic male figure with bold confident eyes, thick expressive brows, and a wide grin full of gleaming white teeth with sparkle accents. Smooth, slightly glossy yellow peel with soft highlights. Stubby cartoon arms and legs, posed upright with arms crossed in a heroic stance. Background features a blurred bunch of bananas. Standing on a wooden dining table beside a sun-filled window in a cozy modern home interior. Rich vibrant colors, cinematic lighting, soft natural shadows, ultra-detailed high-fidelity textures.
+```
+
 ## 📱 UI & Social Media Mockup Cases
 
-> **42 个精选案例** — [浏览全部 UI 与社交媒体截图提示词 →](cases/ui.md)
+> **41 个精选案例** — [浏览全部 UI 与社交媒体截图提示词 →](cases/ui.md)
 
 <!-- Case 130: One-Prompt UI Design Generation (by @austinit) -->
 ### Case 130: [One-Prompt UI Design Generation](https://x.com/austinit/status/2044968740782272596) (by [@austinit](https://x.com/austinit))
@@ -9423,6 +9535,35 @@ AUDIO
 No dialogue, no commentary. Reverent, charged, slightly supernatural sound design. Begin with the deep ambience of an empty stadium — distant floodlight hum, a faint wind, the soft creak of the swaying net. The lines waking add a delicate glassy shimmer running across the field. The crown stirring is a low buried throb under the turf. Each of the three jewels lights with a clear, resonant chime — three certain, complete tones, the same confident punctuation each time. The crown rising lands with a heavy, sacred low impact and a slow rising shimmer of gold. The three-jewel moment holds on a proud sustained chord. The fourth jewel is different — a soft, fragile, flickering tone that breathes rather than rings, tentative and tender. The lines connecting add a spreading living hum; the number 10 resolves on a held, awe-struck swell. Then it falls back toward near-silence — the empty stadium hum, and one last faint breathing shimmer from the fourth jewel. Music: sparse, mythic, restrained — deep cinematic drones, a slow sacred build through the coronation, a single restrained peak at the number-10 reveal, then a quiet hopeful fade that does not fully resolve, leaving the fourth jewel's note hanging. Never bombastic, never a sports anthem; aura and hope, not hype.
 
 Negatives: no player, face, likeness, body, or silhouette; no Messi depiction; no crown before Shot 07; no clean-prop or medieval crown; the fourth jewel must not blaze like the first three; one field and one net only, never three nets; the number 10 only as organic half-found field geometry, never an overlay; no logos, crests, brand marks, trophy replicas, or readable text; no match-recap energy; no identity drift, no jitter or temporal flicker, no warped geometry, no floating objects, no watermarks; no movement arrows, camera notes, panel numbers, captions, labels, borders, or storyboard markings in the video.
+```
+
+<!-- Case 188: 抖音直播截图 (by @iamaiistudio) -->
+### Case 188: [抖音直播截图](https://x.com/iamaiistudio/status/2068123767994523857) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ui_case188/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - 抖音直播截图"></a> |
+
+**提示词:**
+
+```
+Vertical 9:16 aspect ratio. Create a realistic Douyin (TikTok China) live broadcast screenshot. The scene shows Liu Yifei hosting a live stream, holding up a sign that reads: "Streaming live tonight, join the chat with Yifei!" Capture the authentic look of a Chinese mobile livestreaming interface.
+```
+
+<!-- Case 189: AR 超市购物 POV 界面 (by @iamaiistudio) -->
+### Case 189: [AR 超市购物 POV 界面](https://x.com/iamaiistudio/status/2067987931651068364) (by [@iamaiistudio](https://x.com/iamaiistudio))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-API-and-Prompts" target="_blank" rel="noopener noreferrer"><img src="images/ui_case189/output.jpg" width="300" alt="GPT-Image-2 Prompt Example - AR 超市购物 POV 界面"></a> |
+
+**提示词:**
+
+```
+POV shot from inside a grocery store aisle, your hands holding a vibrant mixed-fruit jam jar -- strawberry, blueberry, and orange blend. Holographic AR overlays float around it: a "Flavor Mix" panel with fruit icons, a "Nutrition Info" display, and a glowing "Freshness Meter" at 9/10. A translucent digital shopping list with checkmarks for bread and butter hovers nearby, plus recipe suggestions for toast, pancakes, and desserts. Bokeh background of store shelves and shoppers. Clean retail lighting, photorealistic, cinematic, AR glasses POV, vertical composition.
+
+Full prompt: 
+A first-person point-of-view (POV) shot inside a modern supermarket aisle. The viewer's hands are holding a mixed fruit jam jar with colorful branding, showing a blend of strawberry, blueberry, and orange flavors. Floating around the jar are sleek, semi-transparent Augmented Reality (AR) digital interfaces and holographic HUDs. The overlays display "Flavor Mix" with fruit icons, "Nutrition Info," and a glowing "Freshness Meter" reading 9/10. A digital shopping list with checkmarks for bread and butter appears beside the jar, along with small recipe suggestions like breakfast toast, pancakes, and desserts. The background shelves are slightly blurred with other products and shoppers, creating realistic depth of field. Bright, clean lighting with a futuristic retail atmosphere, ultra-realistic, cinematic look, high-tech AR glasses perspective, vertical composition.
 ```
 
 ## 🧪 Comparison & Community Examples
