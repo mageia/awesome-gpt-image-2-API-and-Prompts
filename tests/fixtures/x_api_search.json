@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "999000000000000001",
+      "text": "GPT Image 2 on ChatGPT\n\nPrompt:\nCreate a premium vertical travel poster for Kyoto with clean editorial typography, layered paper-cut temples, a warm sunrise palette, subtle mist, precise architectural details, balanced negative space, and a print-ready 4:5 composition.",
+      "author_id": "42",
+      "created_at": "2026-07-15T01:00:00Z",
+      "conversation_id": "999000000000000001",
+      "public_metrics": {
+        "like_count": 25,
+        "retweet_count": 3,
+        "reply_count": 2,
+        "quote_count": 1,
+        "impression_count": 1400
+      },
+      "attachments": {
+        "media_keys": ["3_fixture"]
+      }
+    },
+    {
+      "id": "999000000000000002",
+      "text": "GPT Image 2 is impressive. Prompt in bio.",
+      "author_id": "43",
+      "created_at": "2026-07-15T00:30:00Z",
+      "conversation_id": "999000000000000002",
+      "public_metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "impression_count": 80
+      }
+    }
+  ],
+  "includes": {
+    "users": [
+      {"id": "42", "username": "fixture_artist", "name": "Fixture Artist"},
+      {"id": "43", "username": "fixture_commentator", "name": "Fixture Commentator"}
+    ],
+    "media": [
+      {
+        "media_key": "3_fixture",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/FIXTURE.jpg",
+        "alt_text": "Generated Kyoto travel poster"
+      }
+    ]
+  },
+  "meta": {"result_count": 2}
+}
