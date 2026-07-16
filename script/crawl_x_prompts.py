@@ -18,6 +18,7 @@ import mimetypes
 import os
 import re
 import shlex
+import shutil
 import subprocess
 import sys
 import time
@@ -121,6 +122,11 @@ class SearchProvider(Protocol):
         self, query: str, start: datetime, end: datetime, limit: int
     ) -> list[Tweet]: ...
 
+    def fetch_thread(
+        self, conversation_id: str, author_handle: str,
+        start: datetime, end: datetime, limit: int,
+    ) -> list[Tweet]: ...
+
 
 def utc_iso(value: datetime) -> str:
     return value.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace(
@@ -159,6 +165,16 @@ def timestamp_or_zero(value: str) -> float:
         return parse_datetime(value).timestamp() if value else 0.0
     except CrawlError:
         return 0.0
+
+
+def tweet_is_within_window(tweet: Tweet, start: datetime, end: datetime) -> bool:
+    if not tweet.created_at:
+        return False
+    try:
+        created_at = parse_datetime(tweet.created_at)
+    except CrawlError:
+        return False
+    return start <= created_at <= end
 
 
 def int_value(value: Any) -> int:
@@ -414,6 +430,7 @@ def normalize_payload(payload: Any) -> list[Tweet]:
             "Provider JSON must be a list or an object containing "
             "tweets/results/data/candidates"
         )
+    payload = flatten_thread_replies(payload)
     tweets: list[Tweet] = []
     for item in payload:
         if not isinstance(item, dict):
@@ -422,6 +439,43 @@ def normalize_payload(payload: Any) -> list[Tweet]:
         if tweet:
             tweets.append(tweet)
     return tweets
+
+
+def flatten_thread_replies(payload: list[Any]) -> list[Any]:
+    flattened: list[Any] = []
+    for item in payload:
+        if not isinstance(item, dict):
+            flattened.append(item)
+            continue
+
+        root = dict(item)
+        replies = root.pop("thread_replies", None)
+        flattened.append(root)
+        if not isinstance(replies, list):
+            continue
+
+        conversation_id = str(
+            first_nonempty(root, "conversation_id", "conversationId", default="")
+        )
+        if not conversation_id:
+            conversation_id = str(
+                first_nonempty(root, "tweet_id", "id", "id_str", "rest_id", default="")
+            )
+        if not conversation_id:
+            conversation_id = extract_status_id(
+                str(first_nonempty(root, "tweet_url", "url", "link", default=""))
+            )
+
+        for reply in replies:
+            if not isinstance(reply, dict):
+                continue
+            enriched = dict(reply)
+            if conversation_id and not first_nonempty(
+                enriched, "conversation_id", "conversationId", default=""
+            ):
+                enriched["conversation_id"] = conversation_id
+            flattened.append(enriched)
+    return flattened
 
 
 def http_json(
@@ -497,6 +551,17 @@ class XApiProvider:
                 break
         return tweets[:limit]
 
+    def fetch_thread(
+        self, conversation_id: str, author_handle: str,
+        start: datetime, end: datetime, limit: int,
+    ) -> list[Tweet]:
+        query = f"conversation_id:{conversation_id} from:{author_handle}"
+        return [
+            item for item in self.search(query, start, end, limit)
+            if (item.conversation_id or item.tweet_id) == conversation_id
+            and item.author_handle.lower() == author_handle.lower()
+        ]
+
 
 class JsonProvider:
     def __init__(self, path: Path) -> None:
@@ -528,6 +593,13 @@ class JsonProvider:
                     pass
             selected.append(tweet)
         return selected[:limit]
+
+    def fetch_thread(
+        self, conversation_id: str, author_handle: str,
+        start: datetime, end: datetime, limit: int,
+    ) -> list[Tweet]:
+        query = f"conversation_id:{conversation_id} from:{author_handle}"
+        return self.search(query, start, end, limit)
 
 
 class CommandProvider:
@@ -567,6 +639,154 @@ class CommandProvider:
             return normalize_payload(json.loads(completed.stdout))[:limit]
         except json.JSONDecodeError as exc:
             raise CrawlError("Search command did not return valid JSON") from exc
+
+    def fetch_thread(
+        self, conversation_id: str, author_handle: str,
+        start: datetime, end: datetime, limit: int,
+    ) -> list[Tweet]:
+        query = f"conversation_id:{conversation_id} from:{author_handle}"
+        return self.search(query, start, end, limit)
+
+
+class OpenCLIProvider:
+    """X/Twitter search via opencli browser automation (no API token needed).
+
+    Requires opencli CLI and a Chrome browser logged into x.com.
+    """
+
+    def __init__(self, query_delay: float = 0) -> None:
+        if not shutil.which("opencli"):
+            raise CrawlError(
+                "opencli CLI not found in PATH. "
+                "Install with: npm install -g @jackwener/opencli"
+            )
+        self.query_delay = query_delay
+        self._last_search = 0.0
+
+    def search(
+        self, query: str, start: datetime, end: datetime, limit: int
+    ) -> list[Tweet]:
+        # Enforce delay between queries
+        elapsed = time.time() - self._last_search
+        if elapsed < self.query_delay:
+            time.sleep(self.query_delay - elapsed)
+
+        start_utc = start.astimezone(timezone.utc)
+        end_utc = end.astimezone(timezone.utc)
+        since_date = start_utc.date().isoformat()
+        until_date = end_utc.date()
+        end_midnight = datetime.combine(
+            until_date, datetime.min.time(), tzinfo=timezone.utc
+        )
+        if end_utc > end_midnight:
+            until_date += timedelta(days=1)
+        full_query = (
+            f"({query}) since:{since_date} until:{until_date.isoformat()} "
+            "-filter:retweets"
+        )
+        cmd = [
+            "opencli", "twitter", "search", full_query,
+            "--filter", "live",
+            "--limit", str(limit),
+            "-f", "json",
+        ]
+
+        # Retry on 429 rate limit
+        for attempt in range(3):
+            completed = subprocess.run(
+                cmd, capture_output=True, text=True, timeout=120,
+            )
+            self._last_search = time.time()
+            if completed.returncode == 0:
+                tweets = self._parse_opencli_output(completed.stdout)
+                return [
+                    tweet for tweet in tweets
+                    if tweet_is_within_window(tweet, start_utc, end_utc)
+                ][:limit]
+
+            stderr = completed.stderr.strip()
+            if "429" in stderr and attempt < 2:
+                wait = 120 * (attempt + 1)
+                print(f"  Rate limited, waiting {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+
+            raise CrawlError(
+                f"opencli search failed ({completed.returncode}): {stderr}"
+            )
+        raise CrawlError("opencli search failed after retries")
+
+    def fetch_thread(
+        self, conversation_id: str, author_handle: str,
+        start: datetime, end: datetime, limit: int,
+    ) -> list[Tweet]:
+        cmd = [
+            "opencli", "twitter", "thread", conversation_id,
+            "--limit", str(limit), "-f", "json",
+        ]
+        completed = subprocess.run(
+            cmd, capture_output=True, text=True, timeout=120,
+        )
+        if completed.returncode != 0:
+            raise CrawlError(
+                f"opencli thread failed ({completed.returncode}): "
+                f"{completed.stderr.strip()}"
+            )
+        all_tweets = self._parse_opencli_output(completed.stdout)
+        return [
+            t for t in all_tweets
+            if t.author_handle.lower() == author_handle.lower()
+        ][:limit]
+
+    @staticmethod
+    def _parse_opencli_output(raw: str) -> list[Tweet]:
+        # opencli appends update notices after the JSON array
+        json_str = raw.strip()
+        last_bracket = json_str.rfind("]")
+        if last_bracket != -1:
+            json_str = json_str[:last_bracket + 1]
+        try:
+            data = json.loads(json_str)
+        except json.JSONDecodeError as exc:
+            raise CrawlError(
+                f"opencli returned invalid JSON: {exc}"
+            ) from exc
+        if not isinstance(data, list):
+            raise CrawlError("opencli returned unexpected JSON structure")
+        tweets: list[Tweet] = []
+        for item in data:
+            if not isinstance(item, dict):
+                continue
+            tweet = OpenCLIProvider._normalize_opencli_tweet(item)
+            if tweet:
+                tweets.append(tweet)
+        return tweets
+
+    @staticmethod
+    def _normalize_opencli_tweet(item: dict[str, Any]) -> Tweet | None:
+        tweet_id = str(item.get("id", ""))
+        if not tweet_id:
+            return None
+        author = str(item.get("author", "")).lstrip("@")
+        text = item.get("text", "")
+        created_at = item.get("created_at", "")
+        likes = int_value(item.get("likes"))
+        views_str = str(item.get("views", "0"))
+        views = int(views_str) if views_str.isdigit() else 0
+        media_urls = item.get("media_urls") or []
+        if isinstance(media_urls, list):
+            media_urls = [str(u) for u in media_urls]
+
+        return Tweet(
+            tweet_id=tweet_id,
+            author_handle=author,
+            text=text,
+            created_at=created_at,
+            conversation_id=str(item.get("conversation_id") or tweet_id),
+            likes=likes,
+            views=views,
+            media_urls=media_urls,
+        )
 
 
 def clean_text(text: str) -> str:
@@ -981,6 +1201,8 @@ def build_provider(args: argparse.Namespace) -> SearchProvider:
         if not args.search_command:
             raise CrawlError("--search-command is required for --provider command")
         return CommandProvider(args.search_command)
+    if args.provider == "opencli":
+        return OpenCLIProvider(query_delay=args.opencli_delay)
     raise CrawlError(f"Unknown provider: {args.provider}")
 
 
@@ -1021,15 +1243,10 @@ def run_pipeline(args: argparse.Namespace, provider: SearchProvider) -> dict[str
             conversation_id = tweet.conversation_id or tweet.tweet_id
             thread_key = (conversation_id, tweet.author_handle.lower())
             if thread_key not in thread_cache:
-                thread_query = f"conversation_id:{conversation_id} from:{tweet.author_handle}"
-                thread_cache[thread_key] = [
-                    item
-                    for item in provider.search(
-                        thread_query, start, end, args.thread_limit
-                    )
-                    if (item.conversation_id or item.tweet_id) == conversation_id
-                    and item.author_handle.lower() == tweet.author_handle.lower()
-                ]
+                thread_cache[thread_key] = provider.fetch_thread(
+                    conversation_id, tweet.author_handle,
+                    start, end, args.thread_limit,
+                )
             thread = thread_cache[thread_key]
             prompt, non_prompt = extract_prompt(tweet, thread)
 
@@ -1239,7 +1456,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--repo", type=Path, default=ROOT)
     parser.add_argument(
-        "--provider", choices=("x-api", "json", "command"), default="x-api"
+        "--provider", choices=("x-api", "json", "command", "opencli"), default="opencli"
     )
     parser.add_argument("--input-json", type=Path)
     parser.add_argument("--search-command", default=os.getenv("X_SEARCH_COMMAND", ""))
@@ -1255,6 +1472,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--per-query-limit", type=int, default=100)
     parser.add_argument("--thread-limit", type=int, default=30)
     parser.add_argument("--enrich-threads", action="store_true")
+    parser.add_argument("--opencli-delay", type=float, default=0,
+                        help="Seconds to wait between opencli queries (default 0)")
     parser.add_argument("--min-prompt-chars", type=int, default=160)
     parser.add_argument(
         "--reviewer", choices=("heuristic", "openai"), default="heuristic"

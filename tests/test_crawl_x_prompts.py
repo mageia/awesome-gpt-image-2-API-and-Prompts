@@ -1,11 +1,13 @@
 import argparse
 import importlib.util
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -30,12 +32,21 @@ class QueryIgnoringThreadProvider:
     def __init__(self, root, thread):
         self.root = root
         self.thread = thread
+        self.requested_conversation_ids = []
 
     def search(self, query, start, end, limit):
         del start, end
         if "conversation_id:" in query:
             return self.thread[:limit]
         return [self.root]
+
+    def fetch_thread(self, conversation_id, author_handle, start, end, limit):
+        del start, end
+        self.requested_conversation_ids.append(conversation_id)
+        return [
+            t for t in self.thread
+            if t.author_handle.lower() == author_handle.lower()
+        ][:limit]
 
 
 class CrawlerTests(unittest.TestCase):
@@ -208,6 +219,92 @@ class CrawlerTests(unittest.TestCase):
             )
             self.assertEqual(["reply"], [item.tweet_id for item in results])
 
+    def test_normalize_payload_flattens_browser_thread_replies(self):
+        payload = [
+            {
+                "id": "root",
+                "author_handle": "artist",
+                "text": "Prompt below",
+                "created_at": "2026-07-15T01:00:00Z",
+                "thread_replies": [
+                    {
+                        "id": "reply",
+                        "author_handle": "artist",
+                        "text": "Prompt: Create a complete editorial image prompt with realistic lighting, precise composition, readable typography, detailed materials, a clean background, and consistent visual hierarchy.",
+                        "created_at": "2026-07-15T01:01:00Z",
+                    }
+                ],
+            }
+        ]
+        tweets = MODULE.normalize_payload(payload)
+        self.assertEqual(["root", "reply"], [tweet.tweet_id for tweet in tweets])
+        self.assertEqual("root", tweets[1].conversation_id)
+        with tempfile.TemporaryDirectory() as temp:
+            replay = Path(temp) / "browser.json"
+            replay.write_text(json.dumps(payload))
+            provider = MODULE.JsonProvider(replay)
+            replies = provider.fetch_thread(
+                "root",
+                "artist",
+                datetime(2026, 7, 15, tzinfo=timezone.utc),
+                datetime(2026, 7, 16, tzinfo=timezone.utc),
+                10,
+            )
+        self.assertEqual(["root", "reply"], [tweet.tweet_id for tweet in replies])
+        prompt, _ = MODULE.extract_prompt(tweets[0], replies)
+        self.assertIn("complete editorial image prompt", prompt)
+
+    def test_opencli_search_uses_supported_options_and_exact_time_window(self):
+        start = datetime(2026, 7, 15, 12, tzinfo=timezone.utc)
+        end = datetime(2026, 7, 16, 1, tzinfo=timezone.utc)
+        output = json.dumps(
+            [
+                {
+                    "id": "before",
+                    "author": "artist",
+                    "text": "before",
+                    "created_at": "2026-07-15T11:59:59Z",
+                },
+                {
+                    "id": "start",
+                    "author": "artist",
+                    "text": "start",
+                    "created_at": "2026-07-15T12:00:00Z",
+                },
+                {
+                    "id": "end",
+                    "author": "artist",
+                    "text": "end",
+                    "created_at": "2026-07-16T01:00:00Z",
+                },
+                {
+                    "id": "after",
+                    "author": "artist",
+                    "text": "after",
+                    "created_at": "2026-07-16T01:00:01Z",
+                },
+            ]
+        )
+        completed = subprocess.CompletedProcess([], 0, stdout=output, stderr="")
+        with (
+            patch.object(MODULE.shutil, "which", return_value="/usr/bin/opencli"),
+            patch.object(MODULE.subprocess, "run", return_value=completed) as run,
+        ):
+            provider = MODULE.OpenCLIProvider()
+            results = provider.search("GPT-Image-2 prompt", start, end, 10)
+
+        self.assertEqual(["start", "end"], [tweet.tweet_id for tweet in results])
+        command = run.call_args.args[0]
+        self.assertEqual(
+            ["--filter", "live", "--limit", "10", "-f", "json"],
+            command[4:],
+        )
+        self.assertNotIn("--product", command)
+        self.assertNotIn("--exclude", command)
+        self.assertIn("since:2026-07-15", command[3])
+        self.assertIn("until:2026-07-17", command[3])
+        self.assertIn("-filter:retweets", command[3])
+
     def test_pipeline_does_not_merge_media_from_unrelated_thread_results(self):
         with tempfile.TemporaryDirectory() as temp:
             repo = Path(temp)
@@ -255,12 +352,12 @@ class CrawlerTests(unittest.TestCase):
                 summary_limit=30,
                 publish_report=False,
             )
-            MODULE.run_pipeline(
-                args, QueryIgnoringThreadProvider(root, [unrelated, reply])
-            )
+            provider = QueryIgnoringThreadProvider(root, [unrelated, reply])
+            MODULE.run_pipeline(args, provider)
             candidates = json.loads(
                 (args.output_dir / "candidate_tweets.json").read_text()
             )
+            self.assertEqual(["thread-1"], provider.requested_conversation_ids)
             self.assertEqual(["https://example.com/correct.jpg"], candidates[0]["media_urls"])
             self.assertEqual(["reply"], candidates[0]["thread_tweet_ids"])
 
