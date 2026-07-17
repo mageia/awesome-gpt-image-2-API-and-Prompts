@@ -24,8 +24,15 @@ Thumbs.db
 # py
 build_readme.py
 
-# Local prompt update artifacts
-tmp/
+# Local tooling and working artifacts
+/script/
+/tests/
+/docs/
+/tmp/
+/data/
+/result/
+/HANDOFF.md
+/.pytest_cache/
 
 # Local change log (not pushed to remote)
 CHANGES_LOCAL.md
@@ -34,7 +41,5 @@ gpt_image_2_prompt.json
 gpt_image2_prompt.json
 merge_prompt_sources.py
 integrate_categorized_cases.py
-data/ingested_tweets.json
-data/ingested_tweets.json
 .env
 .skill/

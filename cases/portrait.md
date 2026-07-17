@@ -5619,3 +5619,33 @@ Negative Prompt: text, logo, watermark, extra face paint, messy fabric, distorte
 ```
 CCD flash photography style, late-night office setting, whiteboard covered in mathematical formulas in the background, black-rimmed glasses, white high-neck top, black high-waisted mini skirt, semi-matte cool-white porcelain skin with realistic skin texture, subject seated at desk, whiteboard marker held close to the lips, slight dutch angle composition, nuyoah aesthetic
 ```
+
+### Case 313: [Chinese ancient costume beauty👧](https://x.com/johnAGI168/status/2078151491312025680) (by [@johnAGI168](https://x.com/johnAGI168))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case313/output.jpg" width="300" alt="Output image"></a> |
+
+**Prompt:**
+
+```
+Chinese ancient costume beauty👧
+
+GPT- image 2 prompt 👇
+
+Create a photorealistic 9:16 cinematic portrait of an exceptionally beautiful adult East Asian woman in an ancient Chinese interior, captured like an intimate frame from a high-budget historical fantasy film.
+
+She is shown in a close three-quarter profile, leaning slightly forward and looking downward at a small glowing golden petal held delicately between her thumb and index finger. Her expression is quiet, mesmerized and introspective: relaxed eyebrows, heavy soft eyelids, an unfocused downward gaze, and naturally parted lips, as though she has momentarily forgotten everything around her. Her beauty is refined and distinctly East Asian, with a graceful oval face, delicate almond-shaped brown eyes, a slender straight nose, softly defined cheeks and natural peach-colored lips.
+
+Her dark-brown hair is arranged in an elegant, voluminous Tang-dynasty-inspired updo with smooth sculpted loops, pale jade hairpins and tiny pearl ornaments. A few fine strands fall naturally across her temple and cheek. She wears long dangling earrings made of pearls, translucent pale-jade beads and a slender gold chain.
+
+She wears a pale celadon-green silk hanfu with a structured ivory crossed collar and long flowing translucent sleeves. The shoulder is decorated with raised champagne-gold embroidery of peonies, leaves and curling vines. A muted blush-pink inner garment is faintly visible beneath the outer robe. The silk, embroidery and layered fabric must appear tactile, expensive and historically inspired.
+
+The small leaf-shaped petal in her fingers glows from within like a warm golden ember. Its light illuminates her fingertips, lower face, lips and cheek from below. Thin milky-white incense smoke rises from it in elegant translucent ribbons, curling slowly between her hand and face without hiding her eyes. The smoke should feel delicate and physically realistic, not like a heavy special effect.
+
+Behind her is a softly blurred Dunhuang-style mural filled with weathered turquoise, ochre, terracotta and muted-gold cloud spirals. Warm amber sunlight enters from behind and to the right, creating glowing rim light through her hair, smoke and silk sleeves. The golden petal acts as a second, smaller light source. Fine dust floats in the light, giving the room a sacred, timeless stillness.
+
+Use a close half-body composition with her face in the upper-left area and the glowing petal near the center-right. Focus sharply on her eyes, fingertips and petal; let the mural dissolve into creamy bokeh. Warm amber and celadon color palette, soft highlight bloom, gentle shadows, realistic skin pores and fine facial hairs, subtle film grain, shallow depth of field, 85mm lens, poetic Chinese period-drama cinematography, quiet, sacred, mysterious and emotionally suspended.
+
+No smile, no direct eye contact, no glamorous fashion pose, no cold blue lighting, no excessive smoke, no exaggerated magical effects, no anime, no CGI appearance, no plastic skin, no deformed fingers, no text, logo or watermark.
+```

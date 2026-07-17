@@ -8959,3 +8959,80 @@ Editorial fashion portrait, woman wearing flowing red bell-sleeve wrap dress, dr
 ```
 Create a luxury cinematic fashion poster featuring a stylish young male standing in a powerful confident pose, captured from a low-angle perspective. The subject wears a high-end black designer outfit with sharp tailoring, subtle metallic accents, and clean modern silhouette. His expression is calm, confident, and slightly intimidating, with direct eye contact. Hair is perfectly styled with soft volume and natural shine. Behind him is a large glowing circular spotlight in deep gold, creating a halo effect that enhances dominance and focus. The background is minimalist matte black with subtle texture, dust particles, and faint vignette edges to enhance depth. Lighting is dramatic studio-style with strong contrast, highlighting facial structure and clothing details. The composition is symmetrical and centered like a luxury brand advertisement or album cover. Ultra-realistic, 8K detail, 4:5 vertical ratio, high-end editorial aesthetic designed for viral engagement. --ar 4:5 ratio
 ```
+
+### Case 415: [🎽A beauty that is sharp, steady, and slightly restrained](https://x.com/ou_zhen599/status/2078152425345839307) (by [@ou_zhen599](https://x.com/ou_zhen599))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case415/output.jpg" width="300" alt="Output image"></a> |
+
+**Prompt:**
+
+```
+🎽A beauty that is sharp, steady, and slightly restrained
+锐、稳、带点克制的美
+
+GPT- image 2 prompt👇
+Create the fourth poster in the same premium Lululemon sports bra campaign series, developed as the “After Motion Social Frame” version and strengthened with a much more pronounced photographic grain treatment. The composition must preserve the locked left-right two-panel editorial layout, with two different real lifestyle leisure actions, two different outfit colors, refined campaign framing, and strong product readability. The final image must feel like a collector-edition double-page fashion-sport print ad: real, forward, visually striking, socially modern, tactile, and unmistakably premium.
+
+Core concept:
+This is poster No.4 in the same Lululemon campaign family, reimagined as a dual-frame lifestyle study of the moments after motion. The sports bra remains the hero product, but the storytelling shifts into two elevated real-world social pauses: one panel captures a calm terrace refresh moment, the other captures a cool urban transition moment such as walking slowly, taking a call, or holding a coffee after training. The image must feel contemporary, cinematic, and deeply believable, showing how the sports bra carries performance authority into modern daily life. The visual contrast between the two panels should create the impact, while the overall board remains unified through editorial design, luxury realism, and analog print character.
+
+Series continuity:
+The poster must clearly belong to the same Lululemon campaign series as the previous images, preserving the minimal English-led typography, collector-edition border language, premium activewear realism, refined analog print atmosphere, and international fashion-athletic tone. At the same time, this fourth piece must feel like a new chapter: more social, more lifestyle-based, more relaxed in behavior, but still sharp, luxurious, and editorially controlled. The stronger photographic grain should make it feel like a rare high-end magazine spread or archive tear sheet rather than a clean digital fashion ad.
+
+2-panel structure:
+Use a side-by-side two-panel editorial layout with equal vertical image windows, a slim divider between the panels, softly aged campaign borders, and a restrained top title band. The whole page should read like a premium diptych fashion campaign. Each panel must contain a different real social or leisure action, and each must use a different outfit color. The board must feel sparse, elegant, and tightly art-directed, with the sports bra remaining clearly readable in both frames.
+
+Left panel, terrace refresh moment:
+Show a healthy athletic Western female model seated or half-relaxed in a refined outdoor terrace, cafe courtyard, or luxury garden lounge setting. She may hold a green drink, water bottle, or elegant refreshment, suggesting a post-workout pause. The pose should feel natural yet editorial: one leg folded or bent, torso open, shoulders relaxed, chest area clearly visible, and the sports bra fully readable. The atmosphere should feel premium, quiet, and aspirational. Outfit color in this panel should be a deep smoked aubergine-plum, muted mulberry, or wine-shadow tone, paired with coordinated leggings or fitted bottoms in the same tonal family.
+
+Right panel, after-motion social transition:
+Show the same campaign-world model in a different real lifestyle-social action, standing or walking slowly in a premium urban-leisure or residential setting. She may hold a coffee, adjust a phone near the ear, slip on sunglasses, or pause mid-step near a stone walkway or architectural lounge edge. The action should feel like a modern social continuation of athletic life rather than explicit training. The sports bra must remain clearly visible and visually dominant. Outfit color in this panel must contrast the left side, using a lighter, cooler tone such as pale ash-lilac, smoked lavender-gray, mineral mauve, or icy slate-violet, paired with coordinated bottoms in a related tonal family.
+
+Model direction:
+Use a healthy athletic Western female model with refined bone structure, natural beauty, toned but feminine proportions, and an elevated luxury-sport presence. No influencer styling, no artificial retouching, no exaggerated expression. The model should feel poised, self-possessed, modern, and internationally premium. Hair, posture, and gesture should read like a real high-end campaign rather than casual social media photography.
+
+Product focus:
+Render the Lululemon sports bra with absolute realism and premium activewear fidelity. In both panels, the garment must remain the hero product despite the lifestyle actions. Show smooth technical fabric, elegant neckline architecture, refined support structure, subtle compression response, clean underband logic, precise strap engineering, believable stretch behavior, and premium seam finishing. The bra should feel luxurious, high-performance, and highly wearable in both seated and standing social contexts.
+
+Environment direction:
+Use only real, physically believable locations with luxury editorial control. Suitable environments include:
+a chic cafe terrace with premium chairs and greenery,
+a stone-lined courtyard,
+a quiet garden lounge,
+a modern residential walkway,
+a wellness-club exterior,
+or a calm architectural social threshold.
+The spaces must feel expensive, clean, and internationally refined. Avoid clutter, cheap props, loud city noise, neon gym cues, or messy street detail. Both environments should support an aspirational after-training lifestyle narrative.
+
+Color direction:
+Shift the campaign into a fresh, fashion-forward lifestyle palette built around smoky plum, muted mulberry, deep aubergine, pale ash-lilac, cool mauve-gray, silver-beige, soft cement neutrals, and subtle graphite accents. The left panel should feel richer and deeper through its darker plum-family outfit, while the right panel should feel cooler, lighter, and more airy through its pale mineral-lilac outfit. Shared environmental tones should remain neutral and elegant so the two outfits create a clean, premium contrast.
+
+Photography grain:
+Strengthen the photographic grain significantly and make it a defining visual signature of this version. The image should carry visible analog magazine grain, soft scan texture, subtle paper dust, faint emulsion noise, delicate border aging, and collector-edition print wear. The grain must be especially noticeable in the divider, border edges, shadow fields, stone surfaces, fabric midtones, and background gradients. At the same time, the model’s face, sports bra fabric, and silhouette edges must remain sharp, tactile, and luxurious. The grain should feel intentional, expensive, and editorial, never dirty, never muddy, never low-resolution.
+
+Typography:
+Use minimal English-led luxury editorial typography with strong restraint and refined spacing.
+Top branding:
+“lululemon”
+Main English title:
+“AFTER MOTION. SOCIAL FRAME.”
+Supporting line:
+“Performance lives in the pause.”
+Bottom micro-copy:
+“EDITION IV. GRAIN STUDY IN TWO STATES.”
+Typography must feel sparse, modern, official, and beautifully balanced, never loud, never crude, never generic. Include only a subtle official logo mark and minimal campaign coding.
+
+Lighting:
+Use ultra-refined soft daylight with cinematic naturalism. The left panel can feel slightly warmer and more intimate, with diffused terrace light and gentle skin glow. The right panel can feel cooler and cleaner, with controlled architectural daylight and elegant shadow behavior. In both frames, the sports bra must be beautifully sculpted by light, with smooth surface realism and premium material clarity. The lighting must work together with the stronger grain to create a tactile, rare-print luxury atmosphere.
+
+Mood:
+forward, real, grain-rich, premium, lifestyle-athletic, editorial, tactile, cinematic, relaxed but sharp, socially modern, internationally refined, collectible, fashion-performance
+
+Rendering style:
+ultra-premium Lululemon sports bra campaign poster, left-right two-panel editorial layout, two real lifestyle social actions, different outfit colors, strong photographic grain, analog print texture, luxury terrace and architectural settings, minimal English typography, premium activewear realism, soft cinematic daylight, collector-edition fashion-sport campaign, 8k, world-class commercial image quality
+
+Negative prompt:
+cheap sportswear ad, influencer styling, weak sports bra visibility, cluttered cafe scene, random urban mess, neon gym aesthetic, plastic skin, low-detail fabric, messy typography, cartoon rendering, awkward leisure pose, flat lighting, no grain, low-end magazine layout, fake luxury, over-retouched beauty skin
+```
