@@ -5649,3 +5649,31 @@ Use a close half-body composition with her face in the upper-left area and the g
 
 No smile, no direct eye contact, no glamorous fashion pose, no cold blue lighting, no excessive smoke, no exaggerated magical effects, no anime, no CGI appearance, no plastic skin, no deformed fingers, no text, logo or watermark.
 ```
+
+### Case 314: [Obsessive Intimate Couple Portrait 🤍](https://x.com/Ozayrr_irl/status/2078298145491185711) (by [@Ozayrr_irl](https://x.com/Ozayrr_irl))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case314/output.jpg" width="300" alt="Output image"></a> |
+
+**Prompt:**
+
+```
+Use the exact same faces from both reference images and generate the most intimately detailed cinematic couple skin portrait ever conceived — two faces impossibly close, the entire frame consumed by the micro-universe of two human faces sharing the same breath.
+
+Two faces filling the entire frame together — cheek almost against cheek, foreheads nearly touching, noses at the same level, the gap between them a charged centimeter of warm air. No posed perfection — just two real faces existing in the same private space, completely unguarded. The woman's face angled very slightly toward the man, his face turned gently toward hers — the natural gravitational pull of two people completely comfortable in each other's presence.
+
+Both expressions carrying the same quiet warmth — eyes half lidded and soft, the faintest natural smile sitting at the corners of both mouths without fully arriving, the specific expression of two people so deeply comfortable together that happiness requires no effort or performance. Completely real, completely human.
+
+Skin on both faces rendered at absolute forensic obsession level simultaneously — every individual pore on both faces with unique diameter, depth, shadow and wall structure visible. The woman's skin showing its own unique texture — smoother zones at the cheeks, natural pore distribution across the nose, subtle natural freckles, fine peach fuzz catching the warm light individually, natural lip skin texture at the vertical line level, delicate under-eye skin thinness. The man's skin showing its completely different biological texture — larger pores, individual stubble hairs at follicle level each casting its own micro-shadow, coarser skin surface, the natural roughness of male skin under the same warm light. The beautiful contrast of two completely different skin textures existing within the same frame and the same light — feminine smoothness against masculine texture, the biological difference between two people rendered at microscopic detail level.
+
+The space between their faces — that sacred charged gap — catching the warm light and making the air between them visible and alive. Where their skin comes closest the detail is most intense — the cheekbones almost touching, the warmth of proximity creating a very subtle natural flush on both faces in that zone.
+
+Lighting is a single warm candle-like source from slightly below and between them — intimate and alive, catching both skin textures simultaneously from the same angle, micro-shadows behind every pore on both faces at once. The light so warm and human it feels like it exists between them rather than above them. No artificial studio sources — just the most intimate light possible on the most intimate possible distance between two faces.
+
+Background is pure warm black void — nothing exists except these two faces and the light between them.
+
+Color grading forensically warm and honest — true biological skin tones on both faces, the woman's skin warmer and smoother in tone, the man's slightly cooler and more textured, both preserved with complete color accuracy. Zero retouching on either face. 7% heavy analog film grain — warm and organic, the grain scale complementing rather than obscuring the pore-level detail beneath. Slight warmth in the deepest shadows keeping the darkness intimate rather than cold.
+
+Shot on simulated Phase One IQ4 150MP with 120mm Macro lens — both faces in simultaneous sharp focus within the same focal plane, every pore on both faces resolved at maximum detail. The "OzairAI" watermark dissolved as a ghost signature into the warm black lower-right corner. Vertical 9:13 format. Ultra photorealistic, 8K, 150 megapixel dual skin truth — the portrait that makes every viewer lean closer until they can almost feel the warmth radiating between two faces through the screen.
+```

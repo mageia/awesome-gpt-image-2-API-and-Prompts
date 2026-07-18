@@ -764,3 +764,40 @@ Pixar-style 3D animated banana character, single fruit brought to life. A charis
 ```
 Cute minimalist pastel doodle illustration, kawaii character standing side-by-side with their adorable animal companion, inspired by modern Japanese stationery art and children's picture books, clean vector linework, soft cream background, muted pastel color palette (pink, blue, mint, lavender, yellow), simple geometric shapes, tiny confetti dots and floating decorative elements, rounded character design with oversized sweater, wide pants, sneakers, glasses, calm expression, animal companion variations including llama, bear, axolotl, rabbit, cat, fox, turtle or fantasy creature, cozy scenic background with seaside boardwalk, lakeside village, mountain town or whimsical nature landscape, flat design, thick outlines, charming and playful aesthetic, symmetrical composition, full body pose, cute friendship theme, highly detailed vector illustration, sticker-like appearance, children's book art style, soft shadows, clean negative space, vibrant yet gentle colors, trending on Pinterest, adorable wholesome atmosphere, 4k, masterpiece.
 ```
+
+### Case 30: [The better AI video gets, the more I want to](https://x.com/spacecrafter3d/status/2078282374807474573) (by [@spacecrafter3d](https://x.com/spacecrafter3d))
+
+| Output |
+| :----: |
+| <video src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/character_case30/output.mp4" width="300" controls></video> |
+
+**Prompt:**
+
+```
+The better AI video gets, the more I want to work with actors.
+
+When I announced that I was producing my own sci-fi series from an original script I wrote, I expected to use AI video tools the way you've all seen by now:
+
+1. Use text to generate character sheets with different angles
+2. Use those character sheets to generate images of the characters in different situations
+3. Use those images to generate video clips that I would stitch together to create scenes
+
+I used this workflow, and enjoyed it, but something was missing. My show is a drama—it lives or dies by how much you believe the characters feel something—and the AI character performances weren't landing.
+
+Then something incredible happened.
+
+In February 2026, Kling 3.0 Omni launched. In April, Seedance 2.0 became available in the U.S. Then in May, Google launched Gemini Omni Flash. These models are better than anything that has come before at generating realistic video from text and image prompts. But they can also be prompted with video. And unlike earlier video-to-video AI models, these new models can preserve actors' likeness and performance in detail, while changing everything around them.
+
+This opens up a revolutionary new workflow:
+
+1. Shoot video with real actors. No need to travel or build elaborate sets—a single location with a few props is enough. Your phone is perfectly fine as a camera.
+2. Process clips with AI to replace the environment and add effects while preserving the performance.
+
+My early experiments were promising enough that I decided to go all-in. I booked an Airbnb for two weeks and put out a casting call. The applications started pouring in.
+
+The quality of the talent that applied was astounding. I was blown away by the audition tapes they sent in. It was surreal to see an actor perform lines I had written, completely transformed by their life experience and craft.
+
+I cast remarkable actors to play the lead and supporting roles. Our deal memos guarantee that their performances and likenesses can only be used for this project. We're shoot in two weeks.
+
+Some people say that AI video will put actors out of work. I think just the opposite is true. We're about to see an explosion of opportunities for talented actors to make their mark.
+```
