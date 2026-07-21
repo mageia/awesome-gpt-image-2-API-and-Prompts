@@ -9036,3 +9036,15 @@ ultra-premium Lululemon sports bra campaign poster, left-right two-panel editori
 Negative prompt:
 cheap sportswear ad, influencer styling, weak sports bra visibility, cluttered cafe scene, random urban mess, neon gym aesthetic, plastic skin, low-detail fabric, messy typography, cartoon rendering, awkward leisure pose, flat lighting, no grain, low-end magazine layout, fake luxury, over-retouched beauty skin
 ```
+
+### Case 416: [Whimsy Folk Watercolor Illustration](https://x.com/Samann_ai/status/2079281037629358479) (by [@Samann_ai](https://x.com/Samann_ai))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case416/output_1.jpg" width="300" alt="Output image"></a> |
+
+**Prompt:**
+
+```
+A whimsical, charming mixed-media watercolor illustration of a folk art character featuring the face of [insert my face] and wearing [insert my clothes]. The character has huge glowing yellow eyes, exaggerated long eyelashes, and quirky curled whiskers. Precise clean black ink lines, textured brushstrokes, set against a solid light green background with a decorative, naive hand-painted border, storybook aesthetic.
+```

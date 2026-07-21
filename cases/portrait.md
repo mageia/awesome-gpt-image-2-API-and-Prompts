@@ -5677,3 +5677,37 @@ Color grading forensically warm and honest — true biological skin tones on bot
 
 Shot on simulated Phase One IQ4 150MP with 120mm Macro lens — both faces in simultaneous sharp focus within the same focal plane, every pore on both faces resolved at maximum detail. The "OzairAI" watermark dissolved as a ghost signature into the warm black lower-right corner. Vertical 9:13 format. Ultra photorealistic, 8K, 150 megapixel dual skin truth — the portrait that makes every viewer lean closer until they can almost feel the warmth radiating between two faces through the screen.
 ```
+
+### Case 315: [Forest Relaxed Crouch Portrait](https://x.com/ToroJushiAi/status/2079385880028979452) (by [@ToroJushiAi](https://x.com/ToroJushiAi))
+
+| Output |
+| :----: |
+| <a href="https://evolink.ai/gpt-image-2-prompts?utm_source=github&utm_medium=picture&utm_campaign=awesome-gpt-image-2-prompts" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case315/output.png" width="300" alt="Output image"></a> |
+
+**Prompt:**
+
+```
+成年女性在遮阴林地环境中呈放松蹲姿。从头顶略上方至大腿上部紧凑取景。面部在左上中方；躯干斜向穿过画面中间；弯曲双腿在下三分之一形成大型曲线前景形状。身体四分之三朝向右侧；脸部转回朝向镜头。平静、略带沉思的表情——嘴唇轻微张开，眼神柔和专注。
+
+人物：纤细自然运动型体型，浅暖色调肌肤，精致面部比例，杏仁形深棕眼睛，柔和眉形，笔直精致鼻梁，低调玫红唇色。低调妆容：顺滑发光肌肤，柔和棕色眼线，自然睫毛，淡桃腮红，缎面质感裸玫瑰口红。真实毛孔，精细面部质感，自然眼下细节，轻柔色调过渡；无塑料感修图。
+
+发型：深棕黑色头发盘成宽松略显凌乱的低发髻于头部后方。自然发冠体积感，额头、太阳穴、耳朵与颈后有碎发丝；几缕看起来略有湿气的发锁垂落于面颊旁。随意且轻微蓬松——仿佛受潮湿或轻柔微风影响。细腻飞散发丝捕捉环境光。
+
+姿态与双手：左肘搭于画面左下部抬起的膝盖上。左手托住脸部与下颌侧——手指轻柔触碰面颊与太阳穴。右臂斜向向下横过画面中央，自然搭于对侧腿上。双肩放松，躯干略微前倾。准确人体解剖，真实关节，自然手指间距，与面部和腿部的真实接触感。
+
+泳装：米色挂脖比基尼，不规则椭圆与圆形蓝色圆点图案。上装：细绕颈肩带，柔和收褶三角罩杯，胸部自然面料张力。哑光、轻盈、略有质感——真实接缝与褶皱。配套比基尼下装低腰于髋部，相同斑点图案。可见外侧髋部有小型银色金属环或圆形五金细节。不透明，合身，时尚写真感；非光亮或夸张。
+
+腿部：一条弯曲大腿显眼横过左下前景；另一只弯曲膝盖横过下中与右下。自然视角透视——最近的腿略大于躯干。真实膝盖轮廓，柔和肌肉线条，腰臀部自然肌肤褶皱，肩膀、手臂与大腿上有细腻高光。
+
+场景：茂密遮阴森林或热带花园。深绿色植被，虚化叶片，细枝条，藤蔓，模糊树干。几根浅色对角线树枝横过她的肩膀与头部背后——虚焦，用于框架而不分散注意力。深邃、有机、略带潮湿感。无建筑、小路、标识或人物。
+
+景深：极浅。眼睛/面部/上半躯干/最近手臂锐利清晰；植被与枝条化为柔和奶油焦外光斑。最近膝盖与画面下边缘略比面部柔和。背景：分层深橄榄绿、森林绿、炭灰、低调棕色。
+
+光线：来自头顶植被过滤的柔和自然日光，从左上方与左前方照射。轻柔照亮额头、鼻梁、嘴唇、颧骨、肩膀、锁骨、上臂与膝盖。略有露珠感的肌肤上有精致高光——尤其在右肩与上臂。下颌、发丝、手臂与躯干下方有柔和有细节的阴影。无刺眼直射阳光或闪光。
+
+色调与氛围：温暖米色、低调蓝色、柔和肌肤色、深森林绿、炭棕色、克制灰色。轻柔电影感色调：略冷的绿色阴影，中性高光，低至中等饱和度，顺滑高光过渡，精致对比。亲密、安静、感性但端庄、沉思感。
+
+相机：坐高平视，全画幅85mm，f/1.8–f/2.2。自然视角压缩，眼睛精确对焦，柔和背景分离，精致写真质感。轻微模拟胶片颗粒，轻柔边缘柔化，精致高光光晕。
+
+负面：无文字、无Logo、无水印、无多余人物、无强闪光、无变形肢体、无多余手指、无重复身体部位、无透明面料、无夸张比例、无过饱和色彩、无人工HDR、无塑料感肌肤。
+```
